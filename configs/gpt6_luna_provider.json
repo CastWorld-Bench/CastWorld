@@ -1,0 +1,23 @@
+{
+  "endpoint": "http://127.0.0.1:29140/v1/chat/completions",
+  "model": "gpt-6-luna",
+  "api_key_env": "CASTWORLD_LOCAL_PROXY_KEY",
+  "tool_choice_mode": "named",
+  "parallel_tool_calls": null,
+  "replay_rejected_messages": true,
+  "require_reasoning_content": false,
+  "assistant_passthrough_fields": ["reasoning_content", "reasoning", "reasoning_details"],
+  "capacity_recovery": true,
+  "max_output_tokens": 16384,
+  "context_window_tokens": 131072,
+  "context_safety_tokens": 2048,
+  "context_trigger_fraction": 0.65,
+  "token_count_mode": "utf8_conservative",
+  "temperature": null,
+  "timeout_seconds": 600,
+  "max_transport_attempts": 5,
+  "max_episode_transport_retries": 8,
+  "transport_retry_initial_seconds": 5.0,
+  "transport_retry_max_seconds": 60.0,
+  "stream_responses": false
+}

@@ -1,0 +1,1221 @@
+dataset_id,field,description,recorded_unit,interpretation_unit,interpretation_status,quantity_type,representation,profile_visibility,public_visibility,numeric,event_source,groups
+iFLYTEK-PV,cloud_cover_fused,整层云量,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+iFLYTEK-PV,cloud_cover_high_fused,高云云量,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+iFLYTEK-PV,cloud_cover_mid_fused,中云云量,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+iFLYTEK-PV,dew_point_2m_fused,2 m 露点温度；结合气温可表示凝结/结冰条件,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,diffuse_radiation_fused,散射短波辐射 DHI,W/m2,W/m2,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+iFLYTEK-PV,direct_normal_irradiance_fused,直接法向辐照度 DNI；与组件入射角和光伏功率直接相关,W/m2,W/m2,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+iFLYTEK-PV,direct_radiation_fused,水平面直接太阳辐射；赛题已有相近字段，此处为外部档案补充,W/m2,W/m2,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+iFLYTEK-PV,dust_fused,近地面沙尘颗粒浓度代理；不等同于官方沙尘暴观测,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+iFLYTEK-PV,dust_mean,九宫格区域近地面沙尘浓度均值；连续沙尘背景代理,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+iFLYTEK-PV,hf_cape_fused,对流有效位能；反映雷暴/强对流潜势,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,hf_temperature_100m_fused,100 m 高度温度,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,hf_temperature_120m_fused,120 m 高度温度,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,hf_temperature_80m_fused,80 m 高度温度；接近风机轮毂高度的热力背景,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,hf_wind_direction_100m_fused,100 m 风向,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,hf_wind_direction_120m_fused,120 m 风向,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,hf_wind_direction_80m_fused,80 m 风向；风机来流方向代理,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,hf_wind_speed_100m_fused,100 m 风速；高空风资源和大风/切出风险代理,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,hf_wind_speed_120m_fused,120 m 风速；用于风切变/垂直风场特征,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,hf_wind_speed_80m_fused,80 m 风速；与赛题同概念的外部历史预报补充,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,high_dust_proxy,6 小时平均 dust 达全期 p95 的高沙尘代理,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_3;events
+iFLYTEK-PV,icing_risk_score,温度、湿度/露点、降水/低能见度、风速四项结冰条件满足比例,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_3;events
+iFLYTEK-PV,persistent_snow_proxy,雪深超过 0.01 m 的持续积雪代理,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_3;events
+iFLYTEK-PV,pressure_msl_fused,海平面气压；天气系统和大尺度环流代理,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,relative_humidity_2m_fused,2 m 相对湿度,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,shortwave_radiation_fused,总短波太阳辐射 GHI,W/m2,W/m2,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+iFLYTEK-PV,snowfall_24h_sum,过去 24 小时降雪累计；已修正前向保持造成的四倍重复,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+iFLYTEK-PV,soil_temperature_0_to_7cm_fused,0–7 cm 土壤温度；冻融状态代理,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,station_direct_radiation_fused,三站水平面直接辐射的稳健中心值,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+iFLYTEK-PV,station_direct_radiation_spread,三站直接辐射空间标准差，反映局地云量/遮挡不均匀性,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+iFLYTEK-PV,station_precipitation_any,三站任一站点出现降水,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_3;events
+iFLYTEK-PV,station_precipitation_fused,三站降水平均强度,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+iFLYTEK-PV,station_precipitation_max,三站最大降水强度，保留局地降水事件,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+iFLYTEK-PV,station_precipitation_spatial_std,三站降水空间标准差，描述降水局地性,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+iFLYTEK-PV,station_relative_humidity_2m_fused,三站2m相对湿度均值,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,station_relative_humidity_2m_spread,三站2m相对湿度空间标准差,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,station_temperature_2m_fused,三站2m气温均值,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+iFLYTEK-PV,station_temperature_2m_spread,三站2m气温空间标准差,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+iFLYTEK-PV,station_wind_direction_80m_cos,合成风向余弦编码，避免角度0/360断点,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,station_wind_direction_80m_fused,三站风向的圆形、风速加权合成角度,degree,degree,recorded,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,station_wind_direction_80m_resultant,三站风向一致性，1表示方向完全一致，0表示方向相互抵消,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,station_wind_direction_80m_sin,合成风向正弦编码，避免角度0/360断点,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,station_wind_speed_80m_energy_fused,三站风速立方平均的等效风速，贴近风机功率曲线的能量尺度,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,station_wind_speed_80m_spread,三站80m风速空间标准差,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,station_wind_speed_80m_vector_fused,按三站风速加权风矢量得到的80m合成风速,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,sunshine_duration_fused,过去一小时日照持续时间,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,temperature_2m_fused,2 m 气温,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+iFLYTEK-PV,temperature_drop_24h,相对 24 小时前的气温变化；负值代表降温,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,vapour_pressure_deficit_fused,水汽压亏缺 VPD；空气干燥程度，影响蒸散/组件温度和沙尘悬浮,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,wind_direction_100m_fused,100 m 风向,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,wind_direction_10m_fused,10 m 风向；近地面风场方向,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,wind_gusts_10m_fused,10 m 阵风风速；极端风和风机保护动作代理,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,wind_speed_100m_fused,100 m 风速；独立于历史预报的档案补充,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-PV,wind_speed_10m_fused,10 m 风速；近地层风场背景,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-Wind,aerosol_optical_depth_fused,550 nm 全柱气溶胶光学厚度；衡量霾/气溶胶对太阳辐射的衰减,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-Wind,cloud_cover_fused,整层云量,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-Wind,cloud_cover_high_fused,高云云量,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-Wind,cloud_cover_low_fused,低云云量；对光伏遮挡和风场近地层天气较敏感,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-Wind,cloud_cover_mid_fused,中云云量,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-Wind,dew_point_2m_fused,2 m 露点温度；结合气温可表示凝结/结冰条件,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-Wind,direct_normal_irradiance_fused,直接法向辐照度 DNI；与组件入射角和光伏功率直接相关,W/m2,W/m2,recorded,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-Wind,direct_radiation_fused,水平面直接太阳辐射；赛题已有相近字段，此处为外部档案补充,W/m2,W/m2,recorded,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-Wind,dust_fused,近地面沙尘颗粒浓度代理；不等同于官方沙尘暴观测,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-Wind,dust_mean,九宫格区域近地面沙尘浓度均值；连续沙尘背景代理,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-Wind,hf_freezing_level_height_fused,0°C 冻结层高度；可辅助判断降雪相态和结冰风险,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-Wind,hf_temperature_100m_fused,100 m 高度温度,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+iFLYTEK-Wind,hf_temperature_120m_fused,120 m 高度温度,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+iFLYTEK-Wind,hf_temperature_80m_fused,80 m 高度温度；接近风机轮毂高度的热力背景,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+iFLYTEK-Wind,hf_visibility_fused,历史预报能见度；低值可提示雾、降雪或沙尘影响,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-Wind,hf_wind_speed_100m_fused,100 m 风速；高空风资源和大风/切出风险代理,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+iFLYTEK-Wind,hf_wind_speed_120m_fused,120 m 风速；用于风切变/垂直风场特征,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+iFLYTEK-Wind,hf_wind_speed_80m_fused,80 m 风速；与赛题同概念的外部历史预报补充,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+iFLYTEK-Wind,high_dust_proxy,6 小时平均 dust 达全期 p95 的高沙尘代理,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+iFLYTEK-Wind,icing_risk_score,温度、湿度/露点、降水/低能见度、风速四项结冰条件满足比例,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+iFLYTEK-Wind,pm10_fused,粒径小于 10 μm 的颗粒物浓度,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-Wind,pm2_5_fused,粒径小于 2.5 μm 的颗粒物浓度；细颗粒物/霾代理,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-Wind,precipitation_fused,过去一小时降水累计（雨+雪等）,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+iFLYTEK-Wind,pressure_msl_fused,海平面气压；天气系统和大尺度环流代理,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-Wind,rain_fused,过去一小时液态降雨累计,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-Wind,relative_humidity_2m_fused,2 m 相对湿度,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-Wind,shortwave_radiation_fused,总短波太阳辐射 GHI,W/m2,W/m2,recorded,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-Wind,snowfall_24h_sum,过去 24 小时降雪累计；已修正前向保持造成的四倍重复,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+iFLYTEK-Wind,soil_temperature_0_to_7cm_fused,0–7 cm 土壤温度；冻融状态代理,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+iFLYTEK-Wind,station_direct_radiation_fused,三站水平面直接辐射的稳健中心值,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-Wind,station_direct_radiation_spread,三站直接辐射空间标准差，反映局地云量/遮挡不均匀性,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-Wind,station_precipitation_any,三站任一站点出现降水,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_3;events
+iFLYTEK-Wind,station_precipitation_fused,三站降水平均强度,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+iFLYTEK-Wind,station_precipitation_max,三站最大降水强度，保留局地降水事件,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+iFLYTEK-Wind,station_precipitation_spatial_std,三站降水空间标准差，描述降水局地性,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+iFLYTEK-Wind,station_relative_humidity_2m_fused,三站2m相对湿度均值,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-Wind,station_relative_humidity_2m_spread,三站2m相对湿度空间标准差,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-Wind,station_temperature_2m_fused,三站2m气温均值,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+iFLYTEK-Wind,station_temperature_2m_spread,三站2m气温空间标准差,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+iFLYTEK-Wind,station_wind_direction_80m_cos,合成风向余弦编码，避免角度0/360断点,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+iFLYTEK-Wind,station_wind_direction_80m_fused,三站风向的圆形、风速加权合成角度,degree,degree,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+iFLYTEK-Wind,station_wind_direction_80m_resultant,三站风向一致性，1表示方向完全一致，0表示方向相互抵消,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+iFLYTEK-Wind,station_wind_direction_80m_sin,合成风向正弦编码，避免角度0/360断点,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+iFLYTEK-Wind,station_wind_speed_80m_energy_fused,三站风速立方平均的等效风速，贴近风机功率曲线的能量尺度,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+iFLYTEK-Wind,station_wind_speed_80m_spread,三站80m风速空间标准差,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+iFLYTEK-Wind,station_wind_speed_80m_vector_fused,按三站风速加权风矢量得到的80m合成风速,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+iFLYTEK-Wind,sunshine_duration_fused,过去一小时日照持续时间,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-Wind,surface_pressure_fused,地表气压；高程和天气系统状态代理,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-Wind,temperature_2m_fused,2 m 气温,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+iFLYTEK-Wind,vapour_pressure_deficit_fused,水汽压亏缺 VPD；空气干燥程度，影响蒸散/组件温度和沙尘悬浮,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-Wind,weather_code_fused,WMO 天气现象代码；离散类别，区域统计列取众数,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-Wind,wind_gusts_10m_fused,10 m 阵风风速；极端风和风机保护动作代理,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+iFLYTEK-Wind,wind_speed_100m_fused,100 m 风速；独立于历史预报的档案补充,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+iFLYTEK-Wind,wind_speed_10m_fused,10 m 风速；近地层风场背景,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-GD-Load,day_of_week,星期编码：0=周一，…，6=周日。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+CN-GD-Load,dongguan_precipitation,东莞网格的降水量（mm），前一小时累计。,mm,mm,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CN-GD-Load,dongguan_relative_humidity_2m,东莞网格的2米相对湿度（%），标记时刻值。,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CN-GD-Load,dongguan_shortwave_radiation,东莞网格的短波辐射（W/m²），前一小时平均。,W/m2,W/m2,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CN-GD-Load,dongguan_temperature_2m,东莞网格的2米气温（°C），标记时刻值。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-GD-Load,dongguan_wind_speed_10m,东莞网格的10米风速（m/s），标记时刻值。,m/s,m/s,recorded,,,history_and_future,benchmark_known_future,true,false,
+CN-GD-Load,guangzhou_foshan_precipitation,广州/佛山共享网格的降水量（mm），前一小时累计。,mm,mm,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CN-GD-Load,guangzhou_foshan_relative_humidity_2m,广州/佛山共享网格的2米相对湿度（%），标记时刻值。,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CN-GD-Load,guangzhou_foshan_shortwave_radiation,广州/佛山共享网格的短波辐射（W/m²），前一小时平均。,W/m2,W/m2,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CN-GD-Load,guangzhou_foshan_temperature_2m,广州/佛山共享网格的2米气温（°C），标记时刻值。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-GD-Load,guangzhou_foshan_wind_speed_10m,广州/佛山共享网格的10米风速（m/s），标记时刻值。,m/s,m/s,recorded,,,history_and_future,benchmark_known_future,true,false,
+CN-GD-Load,holiday_name,官方安排休假段的英文名称；none表示不在统一休假段，不是缺失值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,false,true,drivers_3;events
+CN-GD-Load,is_makeup_workday,是否为官方调休补班日：1=是，0=否。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_3;events
+CN-GD-Load,is_scheduled_workday,按官方休假与补班安排是否为工作日：1=是，0=否；不表示企业实际开工。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_3;events
+CN-GD-Load,jiangmen_precipitation,江门网格的降水量（mm），前一小时累计。,mm,mm,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CN-GD-Load,jiangmen_relative_humidity_2m,江门网格的2米相对湿度（%），标记时刻值。,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CN-GD-Load,jiangmen_shortwave_radiation,江门网格的短波辐射（W/m²），前一小时平均。,W/m2,W/m2,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CN-GD-Load,jiangmen_temperature_2m,江门网格的2米气温（°C），标记时刻值。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-GD-Load,jiangmen_wind_speed_10m,江门网格的10米风速（m/s），标记时刻值。,m/s,m/s,recorded,,,history_and_future,benchmark_known_future,true,false,
+CN-GD-Load,shantou_precipitation,汕头网格的降水量（mm），前一小时累计。,mm,mm,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CN-GD-Load,shantou_relative_humidity_2m,汕头网格的2米相对湿度（%），标记时刻值。,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CN-GD-Load,shantou_shortwave_radiation,汕头网格的短波辐射（W/m²），前一小时平均。,W/m2,W/m2,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CN-GD-Load,shantou_temperature_2m,汕头网格的2米气温（°C），标记时刻值。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-GD-Load,shantou_wind_speed_10m,汕头网格的10米风速（m/s），标记时刻值。,m/s,m/s,recorded,,,history_and_future,benchmark_known_future,true,false,
+CN-GD-Load,shaoguan_precipitation,韶关网格的降水量（mm），前一小时累计。,mm,mm,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CN-GD-Load,shaoguan_relative_humidity_2m,韶关网格的2米相对湿度（%），标记时刻值。,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CN-GD-Load,shaoguan_shortwave_radiation,韶关网格的短波辐射（W/m²），前一小时平均。,W/m2,W/m2,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CN-GD-Load,shaoguan_temperature_2m,韶关网格的2米气温（°C），标记时刻值。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-GD-Load,shaoguan_wind_speed_10m,韶关网格的10米风速（m/s），标记时刻值。,m/s,m/s,recorded,,,history_and_future,benchmark_known_future,true,false,
+CN-GD-Load,shenzhen_precipitation,深圳网格的降水量（mm），前一小时累计。,mm,mm,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CN-GD-Load,shenzhen_relative_humidity_2m,深圳网格的2米相对湿度（%），标记时刻值。,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CN-GD-Load,shenzhen_shortwave_radiation,深圳网格的短波辐射（W/m²），前一小时平均。,W/m2,W/m2,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CN-GD-Load,shenzhen_temperature_2m,深圳网格的2米气温（°C），标记时刻值。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-GD-Load,shenzhen_wind_speed_10m,深圳网格的10米风速（m/s），标记时刻值。,m/s,m/s,recorded,,,history_and_future,benchmark_known_future,true,false,
+CN-GD-Load,typhoon_event_category***,事件类别：0=无已记录事件；1=预警/响应；2=活动限制；3=供电影响报告；9=其他。多事件取1–3最高类别，否则9；9不是最高等级。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,events
+CN-GD-Load,typhoon_event_types***,英文事件标签，多个标签以分号分隔，保留地点及计划/报告属性；no_recorded_event表示无记录。,source_unit_unverified,,unspecified,,,history_only,history_only,false,true,events
+CN-GD-Load,zhanjiang_precipitation,湛江网格的降水量（mm），前一小时累计。,mm,mm,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CN-GD-Load,zhanjiang_relative_humidity_2m,湛江网格的2米相对湿度（%），标记时刻值。,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CN-GD-Load,zhanjiang_shortwave_radiation,湛江网格的短波辐射（W/m²），前一小时平均。,W/m2,W/m2,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CN-GD-Load,zhanjiang_temperature_2m,湛江网格的2米气温（°C），标记时刻值。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-GD-Load,zhanjiang_wind_speed_10m,湛江网格的10米风速（m/s），标记时刻值。,m/s,m/s,recorded,,,history_and_future,benchmark_known_future,true,false,
+OPSD-DELU-Price,DE_LU_load_actual_entsoe_transparency**,德卢竞价区同小时实际总负荷。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+OPSD-DELU-Price,DE_LU_solar_generation_actual**,德卢竞价区同小时实际太阳能发电量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+OPSD-DELU-Price,DE_LU_wind_generation_actual**,德卢竞价区同小时实际风电合计。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+OPSD-DELU-Price,DE_LU_wind_offshore_generation_actual**,德卢竞价区同小时实际海上风电发电量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+OPSD-DELU-Price,DE_LU_wind_onshore_generation_actual**,德卢竞价区同小时实际陆上风电发电量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+OPSD-DELU-Price,DE_load_actual_entsoe_transparency**,德国同小时实际总负荷。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+OPSD-DELU-Price,DE_solar_generation_actual**,德国同小时实际太阳能发电量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+OPSD-DELU-Price,DE_wind_generation_actual**,德国同小时实际风电合计。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+OPSD-DELU-Price,DE_wind_offshore_generation_actual**,德国同小时实际海上风电发电量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+OPSD-DELU-Price,DE_wind_onshore_generation_actual**,德国同小时实际陆上风电发电量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+OPSD-DELU-Price,de_load_actual_dminus2_mean_mw,交付日前第 2 个当地日的德国实际负荷日均值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+OPSD-DELU-Price,de_lu_solar_actual_dminus2_mean_mw,交付日前第 2 个当地日的德卢太阳能实际发电日均值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+OPSD-DELU-Price,de_lu_wind_offshore_actual_dminus2_mean_mw,交付日前第 2 个当地日的德卢海上风电实际发电日均值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+OPSD-DELU-Price,de_lu_wind_onshore_actual_dminus2_mean_mw,交付日前第 2 个当地日的德卢陆上风电实际发电日均值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+OPSD-DELU-Price,eua_age_at_origin_days,预测起点距上一 EUA 拍卖日期的天数。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+OPSD-DELU-Price,eua_last_auction_price_eur_per_tco2,预测起点前最近一次 EUA 初级拍卖价格。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+OPSD-DELU-Price,eur_usd_last_reference,预测起点前最近的 ECB 欧元兑美元参考汇率。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+OPSD-DELU-Price,gefs_central_cloud_pct,德国中部采样点的总云量预报。,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,
+OPSD-DELU-Price,gefs_central_shortwave_wm2,德国中部采样点的短波辐射通量预报。,W/m2,W/m2,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+OPSD-DELU-Price,gefs_central_temperature_c,德国中部采样点的2 米气温预报。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+OPSD-DELU-Price,gefs_central_wind10_ms,德国中部采样点的10 米风速预报。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+OPSD-DELU-Price,gefs_east_cloud_pct,德国东部采样点的总云量预报。,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,
+OPSD-DELU-Price,gefs_east_shortwave_wm2,德国东部采样点的短波辐射通量预报。,W/m2,W/m2,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+OPSD-DELU-Price,gefs_east_temperature_c,德国东部采样点的2 米气温预报。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+OPSD-DELU-Price,gefs_east_wind10_ms,德国东部采样点的10 米风速预报。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+OPSD-DELU-Price,gefs_land_mean_cloud_pct,七个德国陆地点的总云量简单平均。,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,
+OPSD-DELU-Price,gefs_land_mean_shortwave_wm2,七个德国陆地点的短波辐射通量简单平均。,W/m2,W/m2,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+OPSD-DELU-Price,gefs_land_mean_temperature_c,七个德国陆地点的2 米气温简单平均。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+OPSD-DELU-Price,gefs_land_mean_wind10_ms,七个德国陆地点的10 米风速简单平均。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+OPSD-DELU-Price,gefs_north_cloud_pct,德国北部采样点的总云量预报。,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,
+OPSD-DELU-Price,gefs_north_sea_cloud_pct,北海附近采样点的总云量预报。,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,
+OPSD-DELU-Price,gefs_north_sea_shortwave_wm2,北海附近采样点的短波辐射通量预报。,W/m2,W/m2,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+OPSD-DELU-Price,gefs_north_sea_temperature_c,北海附近采样点的2 米气温预报。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+OPSD-DELU-Price,gefs_north_sea_wind10_ms,北海附近采样点的10 米风速预报。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+OPSD-DELU-Price,gefs_north_shortwave_wm2,德国北部采样点的短波辐射通量预报。,W/m2,W/m2,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+OPSD-DELU-Price,gefs_north_temperature_c,德国北部采样点的2 米气温预报。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+OPSD-DELU-Price,gefs_north_wind10_ms,德国北部采样点的10 米风速预报。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+OPSD-DELU-Price,gefs_northeast_cloud_pct,德国东北部采样点的总云量预报。,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,
+OPSD-DELU-Price,gefs_northeast_shortwave_wm2,德国东北部采样点的短波辐射通量预报。,W/m2,W/m2,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+OPSD-DELU-Price,gefs_northeast_temperature_c,德国东北部采样点的2 米气温预报。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+OPSD-DELU-Price,gefs_northeast_wind10_ms,德国东北部采样点的10 米风速预报。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+OPSD-DELU-Price,gefs_southeast_cloud_pct,德国东南部采样点的总云量预报。,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,
+OPSD-DELU-Price,gefs_southeast_shortwave_wm2,德国东南部采样点的短波辐射通量预报。,W/m2,W/m2,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+OPSD-DELU-Price,gefs_southeast_temperature_c,德国东南部采样点的2 米气温预报。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+OPSD-DELU-Price,gefs_southeast_wind10_ms,德国东南部采样点的10 米风速预报。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+OPSD-DELU-Price,gefs_southwest_cloud_pct,德国西南部采样点的总云量预报。,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,
+OPSD-DELU-Price,gefs_southwest_shortwave_wm2,德国西南部采样点的短波辐射通量预报。,W/m2,W/m2,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+OPSD-DELU-Price,gefs_southwest_temperature_c,德国西南部采样点的2 米气温预报。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+OPSD-DELU-Price,gefs_southwest_wind10_ms,德国西南部采样点的10 米风速预报。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+OPSD-DELU-Price,gefs_west_cloud_pct,德国西部采样点的总云量预报。,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,
+OPSD-DELU-Price,gefs_west_shortwave_wm2,德国西部采样点的短波辐射通量预报。,W/m2,W/m2,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+OPSD-DELU-Price,gefs_west_temperature_c,德国西部采样点的2 米气温预报。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+OPSD-DELU-Price,gefs_west_wind10_ms,德国西部采样点的10 米风速预报。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+OPSD-DELU-Price,is_weekend,是否为周六或周日。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+OPSD-DELU-Price,load_forecast_mw,日前负荷预测；优先德卢值，缺失时使用德国全国值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+OPSD-DELU-Price,local_public_holiday_by,巴伐利亚当日是否有局部适用的法定假日。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+OPSD-DELU-Price,local_public_holiday_sn,萨克森当日是否有局部适用的法定假日。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+OPSD-DELU-Price,local_public_holiday_state_count,当日存在局部适用法定假日的州数。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+OPSD-DELU-Price,market_hour,德国当地小时；秋季回拨时同一小时可出现两次。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+OPSD-DELU-Price,market_month,德国当地月份。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+OPSD-DELU-Price,market_weekday,德国当地星期，周一为 0、周日为 6。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+OPSD-DELU-Price,neighbor_at_load_forecast_mw,奥地利对应交付小时的日前负荷预测。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+OPSD-DELU-Price,neighbor_be_load_forecast_mw,比利时对应交付小时的日前负荷预测。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+OPSD-DELU-Price,neighbor_ch_load_forecast_mw,瑞士对应交付小时的日前负荷预测。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+OPSD-DELU-Price,neighbor_cz_load_forecast_mw,捷克对应交付小时的日前负荷预测。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+OPSD-DELU-Price,neighbor_dk_1_load_forecast_mw,丹麦 DK1 区对应交付小时的日前负荷预测。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+OPSD-DELU-Price,neighbor_dk_2_load_forecast_mw,丹麦 DK2 区对应交付小时的日前负荷预测。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+OPSD-DELU-Price,neighbor_fr_load_forecast_mw,法国对应交付小时的日前负荷预测。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+OPSD-DELU-Price,neighbor_lu_load_forecast_mw,卢森堡对应交付小时的日前负荷预测。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+OPSD-DELU-Price,neighbor_nl_load_forecast_mw,荷兰对应交付小时的日前负荷预测。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+OPSD-DELU-Price,neighbor_pl_load_forecast_mw,波兰对应交付小时的日前负荷预测。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+OPSD-DELU-Price,price_lag_168h_utc,UTC 前 168 小时的德卢日前电价。,EUR/MWh,EUR/MWh,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_3
+OPSD-DELU-Price,price_lag_24h_utc,UTC 前 24 小时的德卢日前电价。,EUR/MWh,EUR/MWh,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_3
+OPSD-DELU-Price,price_lag_48h_utc,UTC 前 48 小时的德卢日前电价。,EUR/MWh,EUR/MWh,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_3
+OPSD-DELU-Price,public_holiday_bb,勃兰登堡当日是否为全州适用法定假日。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+OPSD-DELU-Price,public_holiday_be,柏林当日是否为全州适用法定假日。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+OPSD-DELU-Price,public_holiday_bw,巴登-符腾堡当日是否为全州适用法定假日。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+OPSD-DELU-Price,public_holiday_hb,不来梅当日是否为全州适用法定假日。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+OPSD-DELU-Price,public_holiday_he,黑森当日是否为全州适用法定假日。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+OPSD-DELU-Price,public_holiday_hh,汉堡当日是否为全州适用法定假日。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+OPSD-DELU-Price,public_holiday_mv,梅克伦堡-前波莫瑞当日是否为全州适用法定假日。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+OPSD-DELU-Price,public_holiday_ni,下萨克森当日是否为全州适用法定假日。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+OPSD-DELU-Price,public_holiday_nw,北莱茵-威斯特法伦当日是否为全州适用法定假日。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+OPSD-DELU-Price,public_holiday_rp,莱茵兰-普法尔茨当日是否为全州适用法定假日。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+OPSD-DELU-Price,public_holiday_sh,石勒苏益格-荷尔斯泰因当日是否为全州适用法定假日。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+OPSD-DELU-Price,public_holiday_sl,萨尔当日是否为全州适用法定假日。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+OPSD-DELU-Price,public_holiday_sn,萨克森当日是否为全州适用法定假日。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+OPSD-DELU-Price,public_holiday_st,萨克森-安哈尔特当日是否为全州适用法定假日。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+OPSD-DELU-Price,public_holiday_state_count,当日全州适用的德国法定假日涉及州数。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+OPSD-DELU-Price,public_holiday_th,图林根当日是否为全州适用法定假日。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+OPSD-DELU-Price,utc_offset_minutes,德国当地时间相对 UTC 的偏移。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+WB-T850_1,ao_value,北极涛动（AO）月度指数，描述北半球环状环流异常。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+WB-T850_1,dmi_had_value,基于 HadISST 的 Dipole Mode Index，作为印度洋偶极子（IOD）背景指标。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+WB-T850_1,meiv2_value,Multivariate ENSO Index v2，多变量 ENSO 标准化指数。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+WB-T850_1,mjo_phase,由 RMM1/RMM2 象限确定的 MJO 位相，1–8 为分类编码，不是连续量。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+WB-T850_1,mjo_rmm1,MJO RMM1 Wheeler–Hendon 多变量主成分坐标。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+WB-T850_1,mjo_rmm2,MJO RMM2 Wheeler–Hendon 多变量主成分坐标。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+WB-T850_1,oni_anomaly_c,Niño 3.4 海温相对于基准气候态的 ONI 异常。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_3
+WB-T850_1,oni_sst_c,Niño 3.4 区域 ONI 对应的海温水平（季节三个月滑动平均）。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_3
+WB-T850_1,pdo_value,太平洋年代际振荡（PDO）月度指数。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+WB-T850_1,r2_air_temperature_2m_k,NCEP/DOE R2 2 m 近地面空气温度。,K,K,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+WB-T850_1,r2_skin_temperature_k,NCEP/DOE R2 地表皮肤温度。,K,K,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+WB-T850_1,r2_snow_water_equivalent,NCEP/DOE R2 雪水当量，表示积雪融化后对应的水层质量。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+WB-T850_1,r2_soil_water_0_10cm,NCEP/DOE R2 最近有效陆地点的 0–10 cm 土壤含水量。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+WB-T850_1,r2_soil_water_10_200cm,NCEP/DOE R2 最近有效陆地点的 10–200 cm 深层土壤含水量。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+WB-T850_1,scand_value,斯堪的纳维亚型（SCAND）月度环流指数，反映欧亚阻塞背景。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+WB-T850_1,tc_max_wind_kt,对应事件窗口内记录的最大热带气旋风速。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+WB-T850_1,tc_min_distance_km,"城市到 2,000 km 范围内最近热带气旋轨迹点的球面距离。",source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+WB-T850_1,tc_min_pressure_mb,对应事件窗口内记录的最低热带气旋中心气压。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+WB-T850_1,tc_storm_count,"IBTrACS 轨迹在城市 2,000 km 范围内的热带气旋数量。",source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_3;events
+WB-T850_1,wnpsh_z500_max_gph,西北太平洋副热带高压（WNPSH）远端区域的区域最大 500 hPa 位势高度。,hPa,hPa,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+WB-T850_1,wnpsh_z500_mean_gph,西北太平洋副热带高压（WNPSH）远端区域的区域平均 500 hPa 位势高度。,hPa,hPa,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+WB-T850_1,wnpsh_z500_meridional_slope_gph_per_deg,西北太平洋副热带高压（WNPSH）远端区域的沿纬度方向的 500 hPa 位势高度线性梯度。,degree,degree,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+WB-T850_1,wnpsh_z500_min_gph,西北太平洋副热带高压（WNPSH）远端区域的区域最小 500 hPa 位势高度。,hPa,hPa,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+WB-T850_1,wnpsh_z500_spatial_std_gph,西北太平洋副热带高压（WNPSH）远端区域的区域内 500 hPa 位势高度的空间标准差，表示场的空间离散程度。,hPa,hPa,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+WB-T850_1,wnpsh_z500_zonal_slope_gph_per_deg,西北太平洋副热带高压（WNPSH）远端区域的沿经度方向的 500 hPa 位势高度线性梯度。,degree,degree,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+WB-T850_2,ao_value,北极涛动（AO）月度指数，描述北半球环状环流异常。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+WB-T850_2,dmi_had_value,基于 HadISST 的 Dipole Mode Index，作为印度洋偶极子（IOD）背景指标。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+WB-T850_2,meiv2_value,Multivariate ENSO Index v2，多变量 ENSO 标准化指数。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+WB-T850_2,mjo_phase,由 RMM1/RMM2 象限确定的 MJO 位相，1–8 为分类编码，不是连续量。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+WB-T850_2,mjo_rmm1,MJO RMM1 Wheeler–Hendon 多变量主成分坐标。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+WB-T850_2,mjo_rmm2,MJO RMM2 Wheeler–Hendon 多变量主成分坐标。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+WB-T850_2,oni_anomaly_c,Niño 3.4 海温相对于基准气候态的 ONI 异常。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_3
+WB-T850_2,oni_sst_c,Niño 3.4 区域 ONI 对应的海温水平（季节三个月滑动平均）。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_3
+WB-T850_2,pdo_value,太平洋年代际振荡（PDO）月度指数。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+WB-T850_2,r2_air_temperature_2m_k,NCEP/DOE R2 2 m 近地面空气温度。,K,K,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+WB-T850_2,r2_skin_temperature_k,NCEP/DOE R2 地表皮肤温度。,K,K,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+WB-T850_2,r2_snow_water_equivalent,NCEP/DOE R2 雪水当量，表示积雪融化后对应的水层质量。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+WB-T850_2,r2_soil_water_0_10cm,NCEP/DOE R2 最近有效陆地点的 0–10 cm 土壤含水量。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+WB-T850_2,r2_soil_water_10_200cm,NCEP/DOE R2 最近有效陆地点的 10–200 cm 深层土壤含水量。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+WB-T850_2,scand_value,斯堪的纳维亚型（SCAND）月度环流指数，反映欧亚阻塞背景。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+WB-T850_2,tc_max_wind_kt,对应事件窗口内记录的最大热带气旋风速。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+WB-T850_2,tc_min_distance_km,"城市到 2,000 km 范围内最近热带气旋轨迹点的球面距离。",source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+WB-T850_2,tc_min_pressure_mb,对应事件窗口内记录的最低热带气旋中心气压。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+WB-T850_2,tc_storm_count,"IBTrACS 轨迹在城市 2,000 km 范围内的热带气旋数量。",source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_3;events
+WB-T850_2,wnpsh_z500_max_gph,西北太平洋副热带高压（WNPSH）远端区域的区域最大 500 hPa 位势高度。,hPa,hPa,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+WB-T850_2,wnpsh_z500_mean_gph,西北太平洋副热带高压（WNPSH）远端区域的区域平均 500 hPa 位势高度。,hPa,hPa,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+WB-T850_2,wnpsh_z500_meridional_slope_gph_per_deg,西北太平洋副热带高压（WNPSH）远端区域的沿纬度方向的 500 hPa 位势高度线性梯度。,degree,degree,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+WB-T850_2,wnpsh_z500_min_gph,西北太平洋副热带高压（WNPSH）远端区域的区域最小 500 hPa 位势高度。,hPa,hPa,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+WB-T850_2,wnpsh_z500_spatial_std_gph,西北太平洋副热带高压（WNPSH）远端区域的区域内 500 hPa 位势高度的空间标准差，表示场的空间离散程度。,hPa,hPa,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+WB-T850_2,wnpsh_z500_zonal_slope_gph_per_deg,西北太平洋副热带高压（WNPSH）远端区域的沿经度方向的 500 hPa 位势高度线性梯度。,degree,degree,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+WB-T850_3,ao_value,北极涛动（AO）月度指数，描述北半球环状环流异常。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+WB-T850_3,dmi_had_value,基于 HadISST 的 Dipole Mode Index，作为印度洋偶极子（IOD）背景指标。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+WB-T850_3,east_asia_z500_max_gph,东亚区域的区域最大 500 hPa 位势高度。,hPa,hPa,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+WB-T850_3,east_asia_z500_mean_gph,东亚区域的区域平均 500 hPa 位势高度。,hPa,hPa,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+WB-T850_3,east_asia_z500_meridional_slope_gph_per_deg,东亚区域的沿纬度方向的 500 hPa 位势高度线性梯度。,degree,degree,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+WB-T850_3,east_asia_z500_min_gph,东亚区域的区域最小 500 hPa 位势高度。,hPa,hPa,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+WB-T850_3,east_asia_z500_spatial_std_gph,东亚区域的区域内 500 hPa 位势高度的空间标准差，表示场的空间离散程度。,hPa,hPa,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+WB-T850_3,east_asia_z500_zonal_slope_gph_per_deg,东亚区域的沿经度方向的 500 hPa 位势高度线性梯度。,degree,degree,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+WB-T850_3,meiv2_value,Multivariate ENSO Index v2，多变量 ENSO 标准化指数。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+WB-T850_3,mjo_phase,由 RMM1/RMM2 象限确定的 MJO 位相，1–8 为分类编码，不是连续量。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+WB-T850_3,mjo_rmm1,MJO RMM1 Wheeler–Hendon 多变量主成分坐标。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+WB-T850_3,mjo_rmm2,MJO RMM2 Wheeler–Hendon 多变量主成分坐标。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+WB-T850_3,oni_anomaly_c,Niño 3.4 海温相对于基准气候态的 ONI 异常。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_3
+WB-T850_3,oni_sst_c,Niño 3.4 区域 ONI 对应的海温水平（季节三个月滑动平均）。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_3
+WB-T850_3,pdo_value,太平洋年代际振荡（PDO）月度指数。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+WB-T850_3,r2_air_temperature_2m_k,NCEP/DOE R2 2 m 近地面空气温度。,K,K,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+WB-T850_3,r2_skin_temperature_k,NCEP/DOE R2 地表皮肤温度。,K,K,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+WB-T850_3,r2_snow_water_equivalent,NCEP/DOE R2 雪水当量，表示积雪融化后对应的水层质量。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+WB-T850_3,r2_soil_water_0_10cm,NCEP/DOE R2 最近有效陆地点的 0–10 cm 土壤含水量。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+WB-T850_3,r2_soil_water_10_200cm,NCEP/DOE R2 最近有效陆地点的 10–200 cm 深层土壤含水量。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+WB-T850_3,scand_value,斯堪的纳维亚型（SCAND）月度环流指数，反映欧亚阻塞背景。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+WB-T850_3,tc_max_wind_kt,对应事件窗口内记录的最大热带气旋风速。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+WB-T850_3,tc_min_distance_km,"城市到 2,000 km 范围内最近热带气旋轨迹点的球面距离。",source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+WB-T850_3,tc_min_pressure_mb,对应事件窗口内记录的最低热带气旋中心气压。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+WB-T850_3,tc_storm_count,"IBTrACS 轨迹在城市 2,000 km 范围内的热带气旋数量。",source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_3;events
+WB-T850_3,ural_z500_max_gph,乌拉尔区域的区域最大 500 hPa 位势高度。,hPa,hPa,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+WB-T850_3,ural_z500_mean_gph,乌拉尔区域的区域平均 500 hPa 位势高度。,hPa,hPa,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+WB-T850_3,ural_z500_meridional_slope_gph_per_deg,乌拉尔区域的沿纬度方向的 500 hPa 位势高度线性梯度。,degree,degree,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+WB-T850_3,ural_z500_min_gph,乌拉尔区域的区域最小 500 hPa 位势高度。,hPa,hPa,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+WB-T850_3,ural_z500_spatial_std_gph,乌拉尔区域的区域内 500 hPa 位势高度的空间标准差，表示场的空间离散程度。,hPa,hPa,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+WB-T850_3,ural_z500_zonal_slope_gph_per_deg,乌拉尔区域的沿经度方向的 500 hPa 位势高度线性梯度。,degree,degree,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+SILSO-Sunspot,aa_03_06_nT**,当日 UTC 03:00—06:00 时段的 aa 地磁指数，单位 nT。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+SILSO-Sunspot,aa_06_09_nT**,当日 UTC 06:00—09:00 时段的 aa 地磁指数，单位 nT。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+SILSO-Sunspot,aa_09_12_nT**,当日 UTC 09:00—12:00 时段的 aa 地磁指数，单位 nT。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+SILSO-Sunspot,aa_12_15_nT**,当日 UTC 12:00—15:00 时段的 aa 地磁指数，单位 nT。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+SILSO-Sunspot,aa_15_18_nT**,当日 UTC 15:00—18:00 时段的 aa 地磁指数，单位 nT。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+SILSO-Sunspot,aa_18_21_nT**,当日 UTC 18:00—21:00 时段的 aa 地磁指数，单位 nT。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+SILSO-Sunspot,aa_21_24_nT**,当日 UTC 21:00—24:00 时段的 aa 地磁指数，单位 nT。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+SILSO-Sunspot,aa_max_27d_nT**,包含当前日的向后 27 日窗口内 aa 日值最大值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+SILSO-Sunspot,srs_active_region_count**,NOAA SRS 在有效日期报告的太阳活动区数量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+SILSO-Sunspot,srs_alpha_count**,磁分类为 Alpha 的活动区数量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+SILSO-Sunspot,srs_beta_count**,磁分类为 Beta 的活动区数量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+SILSO-Sunspot,srs_delta_count**,磁分类为 Delta 的活动区数量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+SILSO-Sunspot,srs_due_to_return_count**,NOAA SRS 标记为即将回归可见面的活动区数量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+SILSO-Sunspot,srs_gamma_count**,磁分类为 Gamma 的活动区数量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+SILSO-Sunspot,srs_ha_plage_count**,NOAA SRS 报告的 Hα plage（谱斑区）数量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+SILSO-Sunspot,srs_max_area_msh**,NOAA SRS 报告中单个活动区的最大面积，单位为 MSH。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+SILSO-Sunspot,srs_max_spot_count_nn**,NOAA SRS 报告中单个活动区的最大黑子数（NN 计数）。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+SILSO-Sunspot,srs_total_area_msh**,NOAA SRS 报告的全部活动区总面积，单位为太阳半球百万分之一（MSH）。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+SILSO-Sunspot,srs_total_spot_count_nn**,NOAA SRS 报告的全部活动区黑子总数（NN 计数）。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+SILSO-Sunspot,wso_average_20nhz_filtered_G,WSO 南北极区平均磁场经 20 nHz 滤波后的值，单位 G。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+SILSO-Sunspot,wso_average_raw_G,WSO 南北极区原始磁场的平均值，单位 G。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+SILSO-Sunspot,wso_south_20nhz_filtered_G,WSO 南极区经 20 nHz 滤波后的磁场值，单位 G。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+SILSO-Sunspot,wso_south_raw_G,WSO 南极区原始磁场测量值，单位 G。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-RPI,AAA**,穆迪AAA级公司债收益率,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,AAAFFM**,AAA公司债与联邦基金利差,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,ACOGNO**,消费品新订单,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,AMDMNOx**,耐用品新订单,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,AMDMUOx**,耐用品未完成订单,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,ANDENOx**,非国防资本品新订单,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,AWHMAN**,制造业平均周工时,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,AWOTMAN**,制造业平均周加班工时,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,BAA**,穆迪BAA级公司债收益率,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,BAAFFM**,BAA公司债与联邦基金利差,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,BOGMBASE**,货币基数（十亿美元）,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,BUSINVx**,企业总库存,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,BUSLOANS**,商业银行工商业贷款,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,CE16OV**,16岁及以上平民就业人口,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,CES0600000007**,商品生产部门平均周工时,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,CES0600000008**,商品生产部门生产及非管理人员平均时薪。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,CES1021000001**,采矿与伐木业就业人数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,CES2000000008**,建筑业生产及非管理人员平均时薪。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,CES3000000008**,制造业生产及非管理人员平均时薪。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,CLAIMSx**,初次申请失业救济人数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,CLF16OV**,16岁及以上平民劳动力人口,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,CMRMTSPLx**,实际制造业与贸易销售额,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,COMPAPFFx**,3个月商业票据与联邦基金利差,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,CONSPI***,非循环消费信贷（占个人收入%）,percent,percent,recorded,,,history_only,history_only,true,false,
+US-RPI,CP3Mx**,3个月AA级金融商业票据利率,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,CPIAPPSL**,CPI：服装,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,CPIAUCSL,CPI（全部城市消费者，全部项目）,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-RPI,CPIMEDSL**,CPI：医疗,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,CPITRNSL**,CPI：交通,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,CPIULFSL**,CPI：剔除食品,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,CUMFNS**,制造业产能利用率,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,CUSR0000SA0L2**,CPI：剔除住房,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,CUSR0000SA0L5**,CPI：剔除医疗,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,CUSR0000SAC**,CPI：商品,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,CUSR0000SAD**,CPI：耐用品,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,CUSR0000SAS**,CPI：服务,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,DDURRG3M086SBEA**,PCE价格指数：耐用品,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,DMANEMP**,耐用制造业就业人数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,DNDGRG3M086SBEA**,PCE价格指数：非耐用品,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,DPCERA3M086SBEA**,实际个人消费支出指数，2017年=100；季节调整。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,DSERRG3M086SBEA**,PCE价格指数：服务,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,DTCOLNVHFNM**,汽车消费贷款余额,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,DTCTHFNM**,消费贷款与租赁总额,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,EXCAUSx,加元/美元汇率,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+US-RPI,EXJPUSx,日元/美元汇率,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+US-RPI,EXSZUSx,瑞士法郎/美元汇率,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+US-RPI,EXUSUKx,美元/英镑汇率,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+US-RPI,FEDFUNDS,有效联邦基金利率（%）,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-RPI,GS1,1年期国债收益率,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+US-RPI,GS10,10年期国债收益率,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+US-RPI,GS5,5年期国债收益率,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+US-RPI,HOUST**,新屋开工总数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,HOUSTMW**,新屋开工：中西部,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,HOUSTNE**,新屋开工：东北部,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,HOUSTS**,新屋开工：南部,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,HOUSTW**,新屋开工：西部,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,HWI**,招聘广告（Help-Wanted）指数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,HWIURATIO**,招聘指数/失业人数比,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,INDPRO,工业生产指数（总指数）,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-RPI,INVEST**,银行信贷中的证券投资,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,IPB51222S**,居民公共事业（水电燃气）产量指数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,IPBUSEQ**,工业生产：商业设备,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,IPCONGD**,工业生产：消费品,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,IPDCONGD**,工业生产：耐用消费品,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,IPDMAT**,工业生产：耐用原材料,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,IPFINAL**,工业生产：最终产品,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,IPFPNSS**,工业生产：最终产品与非工业供给,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,IPFUELS**,燃料产量指数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,IPMANSICS**,制造业工业生产指数（SIC）,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,IPMAT**,工业生产：原材料,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,IPNCONGD**,工业生产：非耐用消费品,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,IPNMAT**,工业生产：非耐用原材料,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,ISRATIOx**,企业总库存/销售比,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,M1SL**,M1货币存量（十亿美元）,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,M2REAL**,实际M2货币存量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,M2SL**,M2货币存量（十亿美元）,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,MANEMP**,制造业就业人数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,NDMANEMP**,非耐用制造业就业人数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,NONBORRES**,非借入准备金,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,NONREVSL**,非循环消费信贷,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,OILPRICEx,FRED-MD拼接原油现货价格序列（WTI/Cushing）；美元/桶。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-RPI,PAYEMS,全部非农就业人数（千人）,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-RPI,PCEPI***,PCE价格指数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,PERMIT**,营建许可总数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,PERMITMW**,营建许可：中西部,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,PERMITNE**,营建许可：东北部,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,PERMITS**,营建许可：南部,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,PERMITW**,营建许可：西部,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,PPICMM**,PPI：金属及金属制品,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,REALLN**,商业银行房地产贷款,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,RETAILx**,实际零售与食品服务销售额,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,S&P 500**,标普500指数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,S&P PE ratio**,标普500市盈率,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,S&P div yield**,标普500股息率,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,SRVPRD**,服务生产部门就业人数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,T10YFFM**,10年期国债与联邦基金利差,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,T1YFFM**,1年期国债与联邦基金利差,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,T5YFFM**,5年期国债与联邦基金利差,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,TB3MS,3个月国库券利率,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+US-RPI,TB3SMFFM**,3个月国库券与联邦基金利差,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+US-RPI,TB6MS,6个月国库券利率,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+US-RPI,TB6SMFFM**,6个月国库券与联邦基金利差,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+US-RPI,TOTRESNS**,准备金总额,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,TWEXAFEGSMTHx,名义广义美元指数,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+US-RPI,UEMP15OV**,失业15周及以上人数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,UEMP15T26**,失业15-26周人数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,UEMP27OV**,失业27周及以上人数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,UEMP5TO14**,失业5-14周人数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,UEMPLT5**,失业<5周人数（千人）,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,UEMPMEAN**,平均失业时长（周）,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,UMCSENTx**,密歇根大学消费者信心指数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,UNRATE**,失业率（U-3）,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,USCONS**,建筑业就业人数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,USFIRE**,金融活动就业人数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,USGOOD**,商品生产部门就业人数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,USGOVT**,政府部门就业人数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,USTPU**,贸易、运输与公用事业就业人数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,USTRADE**,零售贸易就业人数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,USWTRADE**,批发贸易就业人数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,VIXCLSx**,VIX波动率指数（CBOE）,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,W875RX1***,剔除当期转移收入后的实际个人收入；十亿美元（2017年不变价），季节调整年率。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,WPSFD49207**,PPI：成品,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,WPSFD49502**,PPI：成品消费品,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,WPSID61**,PPI：中间材料,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,WPSID62**,PPI：原材料,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-RPI,anfci_last**,当月最后一个ANFCI周观测；不是每日独立观测。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+US-RPI,anfci_mean**,ANFCI在当月的周观测均值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+US-RPI,evt_disaster**,灾害类事件数,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-RPI,evt_fin**,金融类事件数,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-RPI,evt_health**,健康/公共卫生类事件数,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-RPI,evt_pol**,政治类事件数,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-RPI,evt_policy**,政策类事件数,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-RPI,evt_terror**,恐怖袭击类事件数,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-RPI,evt_war**,战争/军事冲突类事件数,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-RPI,fema_declarations**,当月FEMA灾害声明数量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-RPI,fema_incident_types**,当月FEMA声明涉及的不重复灾害类型数量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-RPI,fema_major_disaster**,当月FEMA重大灾害（DR）声明数量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-RPI,fema_states**,当月FEMA声明涉及的不重复州数量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-RPI,gprh_threat**,GPRH威胁分项,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+US-RPI,n_events**,当月历史事件总数,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,events
+US-RPI,nfci_last**,当月最后一个NFCI周观测；不是每日独立观测。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+US-RPI,nfci_mean**,NFCI在当月的周观测均值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+US-DFF,actual_anfci***,调整后的全国金融状况指数；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+US-DFF,actual_baa10y**,Baa公司债相对10年国债利差；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+US-DFF,actual_ccsa**,持续领取失业救济人数；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-DFF,actual_dcoilwtico,WTI原油现货价格；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-DFF,actual_delta_anfci***,调整后的全国金融状况指数变化量；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+US-DFF,actual_delta_baa10y**,Baa公司债相对10年国债利差变化量；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+US-DFF,actual_delta_ccsa**,持续领取失业救济人数变化量；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-DFF,actual_delta_dcoilwtico,WTI原油现货价格变化量；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+US-DFF,actual_delta_dexchus,人民币兑美元汇率变化量；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+US-DFF,actual_delta_dexjpus,日元兑美元汇率变化量；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+US-DFF,actual_delta_dfii10**,10年期TIPS实际收益率变化量；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-DFF,actual_delta_dgs10**,10年期美国国债收益率变化量；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-DFF,actual_delta_dgs2**,2年期美国国债收益率变化量；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-DFF,actual_delta_dtb3**,3个月国库券利率变化量；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-DFF,actual_delta_mortgage30us**,30年固定按揭利率变化量；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-DFF,actual_delta_nfci***,芝加哥联储全国金融状况指数变化量；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+US-DFF,actual_delta_stlfsi4***,圣路易斯联储金融压力指数变化量；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+US-DFF,actual_delta_t10y2y**,10年期减2年期国债利差变化量；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+US-DFF,actual_delta_t10yie**,10年期盈亏平衡通胀率变化量；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+US-DFF,actual_delta_vixcls**,CBOE波动率指数 VIX变化量；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-DFF,actual_dexchus,人民币兑美元汇率；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-DFF,actual_dexjpus,日元兑美元汇率；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-DFF,actual_dfii10**,10年期TIPS实际收益率；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-DFF,actual_dgs10,10年期美国国债收益率；目标日最终/修订真值,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-DFF,actual_dgs2,2年期美国国债收益率；目标日最终/修订真值,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-DFF,actual_dtb3**,3个月国库券利率；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-DFF,actual_event_epu**,经济政策不确定性指数；目标日最终/修订真值事件值,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,events
+US-DFF,actual_event_financial_stress***,金融条件偏紧事件；目标日最终/修订真值事件值,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,events
+US-DFF,actual_event_gpr_spike**,GPR地缘政治风险尖峰；目标日最终/修订真值事件值,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,events
+US-DFF,actual_event_yield_curve_inverted**,收益率曲线倒挂事件；目标日最终/修订真值事件值,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,events
+US-DFF,actual_mortgage30us**,30年固定按揭利率；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-DFF,actual_nfci***,芝加哥联储全国金融状况指数；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+US-DFF,actual_stlfsi4***,圣路易斯联储金融压力指数；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+US-DFF,actual_t10y2y**,10年期减2年期国债利差；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+US-DFF,actual_t10yie**,10年期盈亏平衡通胀率；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+US-DFF,actual_vixcls,CBOE波动率指数 VIX；目标日最终/修订真值,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-DFF,day_of_week,目标日期的星期编码，0为周一，6为周日。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+US-DFF,dow_cos,星期周期的余弦编码。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+US-DFF,dow_sin,星期周期的正弦编码。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+US-DFF,is_month_end,月末标记，目标日期为当月最后一天时为1。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+US-DFF,is_weekend,周末标记，周六或周日为1，否则为0。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+US-DFF,month,目标日期所属月份（1—12）。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+US-DFF,month_cos,月份周期的余弦编码。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+US-DFF,month_sin,月份周期的正弦编码。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+US-DFF,year,目标日期所属年份。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+CN-Port-Export,bdi,波罗的海干散货运价综合指数，单位指数点,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-Port-Export,brent_usd_per_barrel,Brent原油现货价格，单位美元/桶,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-Port-Export,cn_holiday_name,放假区间的英文名称；非节假日为空，合并假期以`; `分隔,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,false,false,drivers_3
+CN-Port-Export,cn_is_adjusted_workday,官方指定调休上班日为1，否则为0,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_3;events
+CN-Port-Export,cn_is_holiday,当天处于官方放假区间为1，否则为0,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_3;events
+CN-Port-Export,cn_is_workday,一般工作日为1：普通周一至周五扣除放假，再加入调休上班日,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+CN-Port-Export,cn_post_holiday_7d,处于已公布放假区间结束后1—7天为1，否则为0,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_3;events
+CN-Port-Export,cn_pre_holiday_7d,处于已公布放假区间开始前1—7天为1，否则为0,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_3;events
+CN-Port-Export,cny_per_usd,1美元对应的人民币数量，单位人民币/美元,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-Port-Export,days_to_sf,原表春节相对距离，有符号天数；参考日期、正负方向及跨年规则待核实,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+CN-Port-Export,import**,日总进口量，单位吨；具体汇总口径待核实,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+CN-Port-Export,import_cargo**,日进口货运小计，单位吨；具体汇总口径待核实,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+CN-Port-Export,import_container**,集装箱船运输的日进口量，单位吨,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+CN-Port-Export,import_dry_bulk**,干散货船运输的日进口量，单位吨,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+CN-Port-Export,import_general_cargo**,杂货船运输的日进口量，单位吨,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+CN-Port-Export,import_roro**,滚装船运输的日进口量，单位吨,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+CN-Port-Export,import_tanker**,油轮类船舶运输的日进口量，单位吨,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+CN-Port-Export,is_sf_window,原表春节影响窗口标记，0/1；窗口长度及生成规则待核实,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_3;events
+CN-Port-Export,pmi_manufacturing,中国制造业采购经理综合指数，反映制造业景气,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-Port-Export,pmi_new_export_orders,制造业新出口订单指数，反映海外订单变化；非出口增长率,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-Port-Export,pmi_production,制造业生产指数，反映生产活动变化；非实际生产量,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-Port-Export,pmi_supplier_delivery,供应商配送时间指数，反映配送时间变化；非实际配送天数,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-Port-Export,portcalls**,货运靠港小计加油轮类靠港次数，即日总靠港次数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+CN-Port-Export,portcalls_cargo**,集装箱、干散货、杂货、滚装四类靠港次数之和，单位次,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+CN-Port-Export,portcalls_container**,集装箱船的日靠港次数，单位次,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+CN-Port-Export,portcalls_dry_bulk**,干散货船的日靠港次数，单位次,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+CN-Port-Export,portcalls_general_cargo**,杂货船的日靠港次数，单位次,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+CN-Port-Export,portcalls_roro**,滚装船的日靠港次数，单位次,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+CN-Port-Export,portcalls_share_container**,集装箱靠港次数/总靠港次数，取值0—1,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+CN-Port-Export,portcalls_tanker**,油轮类船舶的日靠港次数，单位次,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+CapitalBikeshare,atemp,UCI 归一化体感温度，小时口径 `(°C+16)/66`,degC,dimensionless,confirmed,normalized_temperature,"Normalized temperature x with x = (apparent_T_C + 16) / 66; for interpretation only, apparent_T_C = 66 * x - 16. The stored x is unchanged.",history_and_future,benchmark_known_future,true,false,drivers_1
+CapitalBikeshare,cloud_day_mean,仅由有效 0–8 八分量观测计算的日平均云量,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CapitalBikeshare,dst,该小时是否处于夏令时,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+CapitalBikeshare,hum,相对湿度除以100,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CapitalBikeshare,precip_1h_day_mm,GHCN-D 日降水量，毫米,mm,mm,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CapitalBikeshare,precip_1h_mm,受 GHCN 日总量约束的小时降水分配，毫米,mm,mm,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CapitalBikeshare,rain_flag,该小时 NOAA 天气码报告降雨,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+CapitalBikeshare,rain_hours,当日 NOAA 降雨现象小时数,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+CapitalBikeshare,season,1冬、2春、3夏、4秋,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+CapitalBikeshare,sky_obscured_hours,当日天空遮蔽小时数,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+CapitalBikeshare,snow_depth_mm,ISD 雪深；缺测时采用 GHCN-D 日雪深，毫米,mm,mm,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CapitalBikeshare,snow_flag,该小时 NOAA 天气码报告降雪,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+CapitalBikeshare,snow_hours,当日 NOAA 降雪现象小时数,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CapitalBikeshare,storm_flag,该小时 NOAA 天气码报告雷暴,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+CapitalBikeshare,storm_hours,当日 NOAA 雷暴现象小时数,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+CapitalBikeshare,temp,UCI 归一化气温，小时口径 `(°C+8)/47`,degC,dimensionless,confirmed,normalized_temperature,"Normalized temperature x with x = (T_C + 8) / 47; for interpretation only, T_C = 47 * x - 8. The stored x is unchanged.",history_and_future,benchmark_known_future,true,false,drivers_1
+CapitalBikeshare,temp_c_day_max,NOAA 当日最高气温（°C）,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,
+CapitalBikeshare,temp_c_day_mean,NOAA 当日平均气温（°C）,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,
+CapitalBikeshare,temp_c_day_min,NOAA 当日最低气温（°C）,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,
+CapitalBikeshare,visibility_m,NOAA 小时能见度，米,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CapitalBikeshare,weathersit,UCI 天气等级：1晴至4恶劣天气,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+CapitalBikeshare,weekday,0周日–6周六,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+CapitalBikeshare,wind_speed_day_mean,NOAA 日平均风速，m/s,m/s,m/s,recorded,,,history_and_future,benchmark_known_future,true,false,
+CapitalBikeshare,windspeed,风速除以67 km/h,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CapitalBikeshare,workingday,非周末且非假日为1,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_3;events
+NYC-311,apparent_temperature_max_c,日最高体感温度,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+NYC-311,apparent_temperature_mean_c,日平均体感温度,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+NYC-311,apparent_temperature_min_c,日最低体感温度,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+NYC-311,building_permits_issued**,DOB BIS 与 DOB NOW （纽约市楼宇局的两个系统）许可数量合计,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-311,building_permits_issued_dob_now**,DOB NOW 建筑许可批准/签发日聚合数量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-311,cooling_degree_days_f,"制冷度日，按 `max(0, 平均华氏温度−65)` 计算",degF,degF,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+NYC-311,day_of_week,星期编码，0 表示星期一，6 表示星期日,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+NYC-311,event_active_borough_bronx_scheduled,原 event_active_borough_bronx 在可见排期活动集合内的统计；保留原定义,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+NYC-311,event_active_borough_brooklyn_scheduled,原 event_active_borough_brooklyn 在可见排期活动集合内的统计；保留原定义,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+NYC-311,event_active_borough_manhattan_scheduled,原 event_active_borough_manhattan 在可见排期活动集合内的统计；保留原定义,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+NYC-311,event_active_borough_queens_scheduled,原 event_active_borough_queens 在可见排期活动集合内的统计；保留原定义,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+NYC-311,event_active_borough_staten_island_scheduled,原 event_active_borough_staten_island 在可见排期活动集合内的统计；保留原定义,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+NYC-311,event_active_hours_scheduled,原 event_active_hours 在可见排期活动集合内的统计；保留原定义,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+NYC-311,event_count_active_other**,当天全纽约其他活动记录数，含游行、未确认活动及未纳入可见集合的记录,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+NYC-311,event_count_active_scheduled,原 event_count_active 在可见排期活动集合内的统计；保留原定义,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+NYC-311,event_count_block_party,街区派对数,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+NYC-311,event_count_ending_scheduled,原 event_count_ending 在可见排期活动集合内的统计；保留原定义,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+NYC-311,event_count_market,市场活动数,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+NYC-311,event_count_sport,体育活动数,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+NYC-311,event_count_starting_scheduled,原 event_count_starting 在可见排期活动集合内的统计；保留原定义,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+NYC-311,event_count_street_event_festival,原 event_count_street_event 中的常规节庆记录数,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+NYC-311,event_count_street_event_race,原 event_count_street_event 中的赛事记录数,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+NYC-311,freeze_thaw_flag,当日最低温 ≤ 0°C 且最高温 ≥ 0°C,degC,dimensionless,confirmed,numeric_binary_indicator,"Numeric 0/1 indicator, not a temperature or precipitation amount. Preserve its numeric dtype and values.",history_and_future,benchmark_known_future,true,true,events
+NYC-311,full_street_closure_count_other**,其他活动对应的全街封闭许可记录数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+NYC-311,full_street_closure_count_scheduled,原 full_street_closure_count 在可见排期活动集合内的统计；保留原定义,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+NYC-311,gas_incident_count**,NYC Emergency Response 中天然气相关 `Utility-*` 事件的创建日数量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-311,heavy_precipitation_flag,日降水量达到 25 mm 及以上,mm,dimensionless,confirmed,numeric_binary_indicator,"Numeric 0/1 indicator, not a temperature or precipitation amount. Preserve its numeric dtype and values.",history_and_future,benchmark_known_future,true,true,drivers_1;events
+NYC-311,high_wind_flag,最大阵风达到 50 km/h 及以上,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_1;events
+NYC-311,holiday_name,节假日名称；非节假日为空，属于结构性空值,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,false,true,drivers_2;events
+NYC-311,is_heat_season,是否纽约供暖季（10 月 1 日至次年 5 月 31 日）,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+NYC-311,is_us_federal_holiday,是否美国联邦节假日,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+NYC-311,is_weekend,是否周末,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+NYC-311,major_event_flag_scheduled,原 major_event_flag 在可见排期活动集合内的统计；保留原定义,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+NYC-311,partial_street_closure_count_other**,其他活动对应的部分封闭/其他限制方式许可记录数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+NYC-311,partial_street_closure_count_scheduled,原 partial_street_closure_count 在可见排期活动集合内的统计；保留原定义,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+NYC-311,precipitation_hours,当日有降水的小时数,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+NYC-311,precipitation_sum_mm,日总降水量,mm,mm,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+NYC-311,rain_sum_mm,日总降雨量,mm,mm,recorded,,,history_and_future,benchmark_known_future,true,false,
+NYC-311,season,`winter`、`spring`、`summer` 或 `autumn`,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,false,false,
+NYC-311,snow_flag,日降雪量达到 2.5 cm 及以上,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+NYC-311,street_permits_issued**,道路施工许可在服务器端签发日的聚合数量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-311,wind_gusts_10m_max_kmh,日最大阵风,km/h,km/h,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+NYC-311,wind_speed_10m_max_kmh,10 米高度日最大风速,km/h,km/h,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-ICSA,actual_anfci***,剔除宏观周期平均影响后的金融松紧指标，用于识别异常金融冲击（事后最终值）。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_baa10y_end**,信用风险和企业融资约束代理变量；扩张通常表示融资压力上升；周内末值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_baa10y_max**,信用风险和企业融资约束代理变量；扩张通常表示融资压力上升；周内最大值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_baa10y_mean**,信用风险和企业融资约束代理变量；扩张通常表示融资压力上升；周内均值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_baa10y_min**,信用风险和企业融资约束代理变量；扩张通常表示融资压力上升；周内最小值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_baa10y_std**,信用风险和企业融资约束代理变量；扩张通常表示融资压力上升；周内波动标准差。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_ccsa**,已经进入失业救济体系的人群存量；与初请共同反映劳动力市场流量和存量（事后最终值）。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+US-ICSA,actual_dcoilwtico_end,能源成本和能源行业景气冲击，会影响通胀与行业就业；周内末值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-ICSA,actual_dcoilwtico_max,能源成本和能源行业景气冲击，会影响通胀与行业就业；周内最大值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-ICSA,actual_dcoilwtico_mean,能源成本和能源行业景气冲击，会影响通胀与行业就业；周内均值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-ICSA,actual_dcoilwtico_min,能源成本和能源行业景气冲击，会影响通胀与行业就业；周内最小值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-ICSA,actual_dcoilwtico_std,能源成本和能源行业景气冲击，会影响通胀与行业就业；周内波动标准差。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-ICSA,actual_dexchus_end,美元周期及中美贸易金融条件代理变量；周内末值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-ICSA,actual_dexchus_max,美元周期及中美贸易金融条件代理变量；周内最大值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-ICSA,actual_dexchus_mean,美元周期及中美贸易金融条件代理变量；周内均值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-ICSA,actual_dexchus_min,美元周期及中美贸易金融条件代理变量；周内最小值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-ICSA,actual_dexchus_std,美元周期及中美贸易金融条件代理变量；周内波动标准差。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-ICSA,actual_dexjpus_end,全球避险、美元周期和国际金融环境代理变量；周内末值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-ICSA,actual_dexjpus_max,全球避险、美元周期和国际金融环境代理变量；周内最大值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-ICSA,actual_dexjpus_mean,全球避险、美元周期和国际金融环境代理变量；周内均值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-ICSA,actual_dexjpus_min,全球避险、美元周期和国际金融环境代理变量；周内最小值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-ICSA,actual_dexjpus_std,全球避险、美元周期和国际金融环境代理变量；周内波动标准差。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-ICSA,actual_dff_end**,实际隔夜政策利率环境，可识别政策调整和流动性状态；周内末值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_dff_max**,实际隔夜政策利率环境，可识别政策调整和流动性状态；周内最大值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_dff_mean**,实际隔夜政策利率环境，可识别政策调整和流动性状态；周内均值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_dff_min**,实际隔夜政策利率环境，可识别政策调整和流动性状态；周内最小值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_dff_std**,实际隔夜政策利率环境，可识别政策调整和流动性状态；周内波动标准差。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_dfii10_end**,剔除通胀预期后的真实长期融资成本；周内末值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_dfii10_max**,剔除通胀预期后的真实长期融资成本；周内最大值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_dfii10_mean**,剔除通胀预期后的真实长期融资成本；周内均值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_dfii10_min**,剔除通胀预期后的真实长期融资成本；周内最小值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_dfii10_std**,剔除通胀预期后的真实长期融资成本；周内波动标准差。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_dgs10_end,反映长期增长、通胀和融资成本预期；周内末值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-ICSA,actual_dgs10_max,反映长期增长、通胀和融资成本预期；周内最大值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-ICSA,actual_dgs10_mean,反映长期增长、通胀和融资成本预期；周内均值。,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-ICSA,actual_dgs10_min,反映长期增长、通胀和融资成本预期；周内最小值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-ICSA,actual_dgs10_std,反映长期增长、通胀和融资成本预期；周内波动标准差。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-ICSA,actual_dgs2_end,对近期政策利率预期敏感，影响企业短中期融资和用工决策；周内末值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-ICSA,actual_dgs2_max,对近期政策利率预期敏感，影响企业短中期融资和用工决策；周内最大值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-ICSA,actual_dgs2_mean,对近期政策利率预期敏感，影响企业短中期融资和用工决策；周内均值。,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-ICSA,actual_dgs2_min,对近期政策利率预期敏感，影响企业短中期融资和用工决策；周内最小值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-ICSA,actual_dgs2_std,对近期政策利率预期敏感，影响企业短中期融资和用工决策；周内波动标准差。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+US-ICSA,actual_dtb3_end**,极短端无风险利率和近期政策预期；周内末值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_dtb3_max**,极短端无风险利率和近期政策预期；周内最大值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_dtb3_mean**,极短端无风险利率和近期政策预期；周内均值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_dtb3_min**,极短端无风险利率和近期政策预期；周内最小值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_dtb3_std**,极短端无风险利率和近期政策预期；周内波动标准差。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_event_epu**,政策不确定性会影响企业招聘、投资与裁员决策。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-ICSA,actual_event_evt_disaster**,自然灾害和重大事故类事件计数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-ICSA,actual_event_evt_fin**,金融市场和金融体系事件计数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-ICSA,actual_event_evt_health**,公共卫生和疫情类事件计数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-ICSA,actual_event_evt_pol**,政治和治理类事件计数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-ICSA,actual_event_evt_policy**,政策变动和政策不确定性事件计数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-ICSA,actual_event_evt_terror**,恐怖主义类事件计数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-ICSA,actual_event_evt_war**,战争和武装冲突类事件计数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-ICSA,actual_event_fema_declarations**,联邦紧急事务管理局灾害声明数量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-ICSA,actual_event_fema_emergency**,FEMA紧急状态声明数量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-ICSA,actual_event_fema_fire_management**,FEMA火灾管理援助声明数量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-ICSA,actual_event_fema_incident_types**,当月灾害声明涉及的不同事件类型数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-ICSA,actual_event_fema_major_disaster**,FEMA中正式标记为重大灾害的数量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-ICSA,actual_event_fema_other**,无法归入主要 FEMA 类型的其他声明。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-ICSA,actual_event_fema_states**,当月灾害声明涉及的州数量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-ICSA,actual_event_gpr**,地缘政治冲击和国际风险的月度代理。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-ICSA,actual_event_gpr_act**,由已发生地缘政治事件构成的风险分量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-ICSA,actual_event_gpr_threat**,由威胁性表述和潜在冲突构成的风险分量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-ICSA,actual_event_gprh**,历史口径地缘政治风险指标。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-ICSA,actual_event_gprh_act**,历史口径的实际事件分量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-ICSA,actual_event_gprh_threat**,历史口径的威胁分量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-ICSA,actual_event_noaa_damage_cpi_musd**,按 CPI 调整后的灾害经济损失。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-ICSA,actual_event_noaa_deaths**,灾害数据库记录的死亡人数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-ICSA,actual_event_noaa_disaster_count**,NOAA重大灾害数据库中的灾害记录数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+US-ICSA,actual_mortgage30us**,居民长期融资成本；利率变化会通过住房、消费和相关行业用工传导（事后最终值）。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_nfci**,综合货币、债务、股票和银行条件；较高值通常表示金融环境更紧（事后最终值）。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+US-ICSA,actual_rifspffnb_end**,政策利率状态的核对序列和变点变量；周内末值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_rifspffnb_max**,政策利率状态的核对序列和变点变量；周内最大值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_rifspffnb_mean**,政策利率状态的核对序列和变点变量；周内均值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_rifspffnb_min**,政策利率状态的核对序列和变点变量；周内最小值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_rifspffnb_std**,政策利率状态的核对序列和变点变量；周内波动标准差。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_stlfsi4**,综合利率、信用利差和市场波动；压力骤升可能领先裁员和初请上升（事后最终值）。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_t10y2y_end**,收益率曲线斜率；倒挂常用于识别增长放缓风险；周内末值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_t10y2y_max**,收益率曲线斜率；倒挂常用于识别增长放缓风险；周内最大值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_t10y2y_mean**,收益率曲线斜率；倒挂常用于识别增长放缓风险；周内均值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_t10y2y_min**,收益率曲线斜率；倒挂常用于识别增长放缓风险；周内最小值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_t10y2y_std**,收益率曲线斜率；倒挂常用于识别增长放缓风险；周内波动标准差。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_t10yie_end**,市场隐含的长期通胀预期；周内末值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_t10yie_max**,市场隐含的长期通胀预期；周内最大值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_t10yie_mean**,市场隐含的长期通胀预期；周内均值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_t10yie_min**,市场隐含的长期通胀预期；周内最小值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_t10yie_std**,市场隐含的长期通胀预期；周内波动标准差。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,actual_vixcls_end**,市场恐慌和不确定性的高频代理变量；周内末值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+US-ICSA,actual_vixcls_max**,市场恐慌和不确定性的高频代理变量；周内最大值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+US-ICSA,actual_vixcls_mean**,市场恐慌和不确定性的高频代理变量；周内均值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+US-ICSA,actual_vixcls_min**,市场恐慌和不确定性的高频代理变量；周内最小值。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+US-ICSA,actual_vixcls_std**,市场恐慌和不确定性的高频代理变量；周内波动标准差。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+US-ICSA,actual_walcl**,反映美联储资产负债表规模和系统流动性环境（事后最终值）。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+US-ICSA,calendar_month,目标周结束日所在月份。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+US-ICSA,calendar_week_cos,捕捉季节性周期。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+US-ICSA,calendar_week_of_year,ISO 年内周序。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+US-ICSA,calendar_week_sin,捕捉季节性周期。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+US-ICSA,calendar_year,目标周所属年份。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+NYC-EMS,apparent_temperature_max_c,日最高体感温度（°C）。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+NYC-EMS,apparent_temperature_mean_c,日平均体感温度（°C）。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+NYC-EMS,apparent_temperature_min_c,日最低体感温度（°C）。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+NYC-EMS,athletic_race_count,体育赛事/路跑活动数量。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+NYC-EMS,block_party_count,街区派对活动数量。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+NYC-EMS,cooling_degree_days_f,制冷度日，按 65°F 基准计算。,degF,degF,recorded,,,history_and_future,benchmark_known_future,true,false,
+NYC-EMS,covid_hospital_admitted_due_to_covid**,因 COVID 入院的患者数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,covid_hospital_admitted_not_due_to_covid**,非因 COVID 入院但检测为 COVID 的患者数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,covid_hospital_icu_currently**,当前 COVID ICU 患者数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,covid_hospital_patients_currently**,NYC 设施当前 COVID 住院患者数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,day_of_week,星期编码，Python weekday 口径：周一=0，周日=6。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+NYC-EMS,day_of_year,一年中的第几天。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+NYC-EMS,day_of_year_cos,一年周期的余弦编码。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+NYC-EMS,dew_point_2m_mean_c,2米高度日平均露点温度（°C）。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,
+NYC-EMS,dst_transition,是否夏令时切换日（1/0）。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+NYC-EMS,epa_aqi,EPA/AQS New York 都市区日 AQI。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+NYC-EMS,epa_aqi_category,AQI 类别。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,false,false,drivers_2
+NYC-EMS,epa_co_max,一氧化碳（CO）日最大值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+NYC-EMS,epa_co_mean,一氧化碳（CO）日均值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+NYC-EMS,epa_no2_max,二氧化氮（NO₂）日最大值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+NYC-EMS,epa_no2_mean,二氧化氮（NO₂）日均值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+NYC-EMS,epa_ozone_max,NYC 五区监测站臭氧日最大值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+NYC-EMS,epa_ozone_mean,NYC 五区监测站臭氧日均值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+NYC-EMS,epa_pm25_88101_max,PM2.5 参数 88101 的日最大值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+NYC-EMS,epa_pm25_88101_mean,PM2.5 参数 88101 的日均值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+NYC-EMS,epa_pm25_88502_max,PM2.5 参数 88502 的日最大值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+NYC-EMS,epa_pm25_88502_mean,PM2.5 参数 88502 的日均值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+NYC-EMS,epa_so2_max,二氧化硫（SO₂）日最大值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+NYC-EMS,epa_so2_mean,二氧化硫（SO₂）日均值。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+NYC-EMS,fdny_fire_bronx_count**,Bronx 区 FDNY 调度事件数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,fdny_fire_brooklyn_count**,Brooklyn 区 FDNY 调度事件数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,fdny_fire_engines_assigned_total**,出动 Engine 单位数量合计。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,fdny_fire_group_medical_emergencies_count***,FDNY 原始分类中的医疗急救事件数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,fdny_fire_group_medical_mfas_count***,FDNY 原始分类中的 Medical MFAs 事件数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,fdny_fire_group_nonmedical_emergencies_count**,FDNY 原始分类中的非医疗紧急事件数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,fdny_fire_group_nonmedical_mfas_count**,FDNY 原始分类中的非医疗 MFAs 事件数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,fdny_fire_group_nonstructural_fires_count**,FDNY 原始分类中的非结构性火灾事件数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,fdny_fire_group_structural_fires_count**,FDNY 原始分类中的结构性火灾事件数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,fdny_fire_incident_count**,FDNY 消防调度事件数（去重事件）。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,fdny_fire_ladders_assigned_total**,出动 Ladder 单位数量合计。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,fdny_fire_manhattan_count**,Manhattan 区 FDNY 调度事件数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,fdny_fire_other_units_assigned_total**,出动其它消防单位数量合计。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,fdny_fire_queens_count**,Queens 区 FDNY 调度事件数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,fdny_fire_staten_island_count**,Staten Island 区 FDNY 调度事件数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,freeze_thaw_flag,当日最低温≤0°C且最高温≥0°C的冻融标记。,degC,dimensionless,confirmed,numeric_binary_indicator,"Numeric 0/1 indicator, not a temperature or precipitation amount. Preserve its numeric dtype and values.",history_and_future,benchmark_known_future,true,true,events
+NYC-EMS,full_street_closure_count_other**,其他活动对应的全街封闭许可记录数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+NYC-EMS,full_street_closure_count_scheduled,原 full_street_closure_count 在可见排期活动集合内的统计；保留原定义,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+NYC-EMS,health_fair_count,健康集市活动数量。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+NYC-EMS,heating_degree_days_f,采暖度日，按 65°F 基准计算。,degF,degF,recorded,,,history_and_future,benchmark_known_future,true,false,
+NYC-EMS,heavy_precipitation_flag,日降水量达到 25 mm 的强降水标记。,mm,dimensionless,confirmed,numeric_binary_indicator,"Numeric 0/1 indicator, not a temperature or precipitation amount. Preserve its numeric dtype and values.",history_and_future,benchmark_known_future,true,true,drivers_1;events
+NYC-EMS,high_wind_flag,日最大阵风达到 50 km/h 的大风标记。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_1;events
+NYC-EMS,holiday_name,节假日名称；非节假日为空。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,false,true,drivers_2;events
+NYC-EMS,influenza_lab_confirmed_weekly_total**,NYC 五县每周实验室确诊流感病例总数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,influenza_unspecified_lab_confirmed_weekly**,NYC 五县每周实验室确诊、未细分型流感病例数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,is_us_federal_holiday,是否美国联邦节假日（1/0）。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+NYC-EMS,is_weekend,是否周末（1/0）。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+NYC-EMS,large_special_event_count,大型特殊活动数量。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+NYC-EMS,mass_event_active_hours_scheduled,原 mass_event_active_hours 在可见排期活动集合内的统计；保留原定义,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+NYC-EMS,mass_event_borough_bronx_scheduled,原 mass_event_borough_bronx 在可见排期活动集合内的统计；保留原定义,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+NYC-EMS,mass_event_borough_brooklyn_scheduled,原 mass_event_borough_brooklyn 在可见排期活动集合内的统计；保留原定义,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+NYC-EMS,mass_event_borough_manhattan_scheduled,原 mass_event_borough_manhattan 在可见排期活动集合内的统计；保留原定义,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+NYC-EMS,mass_event_borough_queens_scheduled,原 mass_event_borough_queens 在可见排期活动集合内的统计；保留原定义,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+NYC-EMS,mass_event_borough_staten_island_scheduled,原 mass_event_borough_staten_island 在可见排期活动集合内的统计；保留原定义,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+NYC-EMS,mass_event_count_ending_scheduled,原 mass_event_count_ending 在可见排期活动集合内的统计；保留原定义,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+NYC-EMS,mass_event_count_other**,当天全纽约其他活动记录数，含游行、未确认活动及未纳入可见集合的记录,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+NYC-EMS,mass_event_count_scheduled,原 mass_event_count 在可见排期活动集合内的统计；保留原定义,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+NYC-EMS,mass_event_count_starting_scheduled,原 mass_event_count_starting 在可见排期活动集合内的统计；保留原定义,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+NYC-EMS,motor_collision_bronx_count**,Bronx 区机动车碰撞事件数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,motor_collision_brooklyn_count**,Brooklyn 区机动车碰撞事件数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,motor_collision_count**,NYPD 机动车碰撞事件数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,motor_collision_cyclists_injured**,碰撞涉及的受伤骑行者人数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,motor_collision_cyclists_killed**,碰撞涉及的死亡骑行者人数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,motor_collision_manhattan_count**,Manhattan 区机动车碰撞事件数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,motor_collision_motorists_injured**,碰撞涉及的受伤机动车乘员人数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,motor_collision_motorists_killed**,碰撞涉及的死亡机动车乘员人数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,motor_collision_pedestrians_injured**,碰撞涉及的受伤行人数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,motor_collision_persons_injured**,碰撞涉及的受伤人数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,motor_collision_queens_count**,Queens 区机动车碰撞事件数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+NYC-EMS,named_major_event_count_scheduled,原 named_major_event_count 在可见排期活动集合内的统计；保留原定义,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+NYC-EMS,named_major_event_flag_scheduled,原 named_major_event_flag 在可见排期活动集合内的统计；保留原定义,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+NYC-EMS,partial_street_closure_count_other**,其他活动对应的部分封闭/其他限制方式许可记录数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+NYC-EMS,partial_street_closure_count_scheduled,原 partial_street_closure_count 在可见排期活动集合内的统计；保留原定义,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+NYC-EMS,precipitation_hours,有降水小时数。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+NYC-EMS,precipitation_sum_mm,日总降水量（mm）。,mm,mm,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+NYC-EMS,rain_sum_mm,日降雨量（mm）。,mm,mm,recorded,,,history_and_future,benchmark_known_future,true,false,
+NYC-EMS,relative_humidity_2m_mean_pct,2米高度日平均相对湿度（%）。,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+NYC-EMS,religious_event_count_sapo,SAPO宗教活动（可见计划）,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+NYC-EMS,season,季节：winter、spring、summer 或 autumn。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,false,false,
+NYC-EMS,snow_flag,日降雪量达到 2.5 cm 的降雪标记。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+NYC-EMS,snowfall_sum_cm,日降雪量（cm）。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+NYC-EMS,street_festival_count,街头节庆活动数量。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+NYC-EMS,surface_pressure_mean_hpa,日平均地面气压（hPa）。,hPa,hPa,recorded,,,history_and_future,benchmark_known_future,true,false,
+NYC-EMS,temperature_2m_max_c,2米高度日最高气温（°C）。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+NYC-EMS,temperature_2m_mean_c,2米高度日平均气温（°C）。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+NYC-EMS,temperature_2m_min_c,2米高度日最低气温（°C）。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+NYC-EMS,wind_gusts_10m_max_kmh,10米高度日最大阵风（km/h）。,km/h,km/h,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+NYC-EMS,wind_speed_10m_max_kmh,10米高度日最大风速（km/h）。,km/h,km/h,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-Flu-PosRate,ah_national_popw_mean,全国大陆31省级地区逐网格小时计算的绝对湿度人口加权周均（g/m³）,g/m3,g/m3,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-Flu-PosRate,ah_north_popw_mean,北方16省级地区逐网格小时计算的绝对湿度人口加权周均（g/m³）,g/m3,g/m3,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-Flu-PosRate,ah_south_popw_mean,南方15省级地区逐网格小时计算的绝对湿度人口加权周均（g/m³）,g/m3,g/m3,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-Flu-PosRate,holiday_days,官方放假/连休安排内日数（含安排内周末）,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_3;events
+CN-Flu-PosRate,holiday_name,当周官方放假安排对应的节假日名称；多个名称用分号连接；无事件填无节假日,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,false,true,drivers_3;events
+CN-Flu-PosRate,ili_north**,北方哨点医院流感样病例占就诊比例（ILI%，百分数尺度）,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+CN-Flu-PosRate,ili_plus_north***,北方ILI+组合指标，约为ili_north × pos_rate_north*** / 100，沿用原值及舍入精度,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+CN-Flu-PosRate,ili_plus_south***,南方ILI+组合指标，约为ili_south × pos_rate_south*** / 100，沿用原值及舍入精度,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+CN-Flu-PosRate,ili_south**,南方哨点医院流感样病例占就诊比例（ILI%，百分数尺度）,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+CN-Flu-PosRate,npi_facial_coverings**,口罩政策编码；完整7天日编码的周均值（有序等级，非0/1哑变量）,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_2;events
+CN-Flu-PosRate,npi_gathering_restrictions**,集会限制政策编码；完整7天日编码的周均值（有序等级，非0/1哑变量）,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_2;events
+CN-Flu-PosRate,npi_internal_movement**,境内流动限制政策编码；完整7天日编码的周均值（有序等级，非0/1哑变量）,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_2;events
+CN-Flu-PosRate,npi_school_closing**,疫情停课政策编码（区别于寒暑假校历）；完整7天日编码的周均值（有序等级，非0/1哑变量）,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_2;events
+CN-Flu-PosRate,npi_stringency**,疫情防控严格程度指数；完整7天日编码的周均值（0—100）,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_2;events
+CN-Flu-PosRate,npi_workplace_closing**,工作场所关闭政策编码；完整7天日编码的周均值（有序等级，非0/1哑变量）,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_2;events
+CN-Flu-PosRate,pos_rate_north***,北方流感病毒检测阳性率（%）,percent,percent,recorded,,,history_only,history_only,true,false,
+CN-Flu-PosRate,pos_rate_south***,南方流感病毒检测阳性率（%）,percent,percent,recorded,,,history_only,history_only,true,false,
+CN-Flu-PosRate,positive_total***,全国阳性标本数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+CN-Flu-PosRate,precip_national_popw_mean,全国大陆31省级地区网格周累计降水的人口加权平均（mm/周，非区域总水量）,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-Flu-PosRate,precip_north_popw_mean,北方16省级地区网格周累计降水的人口加权平均（mm/周，非区域总水量）,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-Flu-PosRate,precip_south_popw_mean,南方15省级地区网格周累计降水的人口加权平均（mm/周，非区域总水量）,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-Flu-PosRate,rh_national_popw_mean,全国大陆31省级地区逐网格小时计算的相对湿度人口加权周均（%）,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-Flu-PosRate,rh_north_popw_mean,北方16省级地区逐网格小时计算的相对湿度人口加权周均（%）,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-Flu-PosRate,rh_south_popw_mean,南方15省级地区逐网格小时计算的相对湿度人口加权周均（%）,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-Flu-PosRate,shortwave_national_popw_mean,全国大陆31省级地区地表向下短波辐射人口加权周均（W/m²）,W/m2,W/m2,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-Flu-PosRate,shortwave_north_popw_mean,北方16省级地区地表向下短波辐射人口加权周均（W/m²）,W/m2,W/m2,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-Flu-PosRate,shortwave_south_popw_mean,南方15省级地区地表向下短波辐射人口加权周均（W/m²）,W/m2,W/m2,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-Flu-PosRate,specimens_total***,全国送检标本数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+CN-Flu-PosRate,temp_national_popw_mean,全国大陆31省级地区人口加权2米气温周均（°C）,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-Flu-PosRate,temp_north_popw_mean,北方16省级地区人口加权2米气温周均（°C）,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-Flu-PosRate,temp_south_popw_mean,南方15省级地区人口加权2米气温周均（°C）,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CN-Flu-PosRate,week_of_year,ISO周序号（1—53）；提供年内季节信息，不是连续行号,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+M5-TX3-FOODS,bea_tx_personal_income_sa_millions_lag2q,德州季调个人收入，季度数据滞后两个季度后映射到每日，单位为百万美元。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+M5-TX3-FOODS,bls_south_food_at_home_cpi_lag2m,美国南部地区“家庭食用食品”CPI，滞后两个月后映射到每日；非德州专属指数。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+M5-TX3-FOODS,bls_tx_unemployment_rate_lag2m,德州失业率，月度数据保守滞后两个月后映射到每日，单位为百分比。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+M5-TX3-FOODS,exog_CA_3_FOODS**,加利福尼亚州 CA_3 门店 FOODS 类当日销量，件。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+M5-TX3-FOODS,exog_WI_3_FOODS**,威斯康星州 WI_3 门店 FOODS 类当日销量，件。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+M5-TX3-FOODS,fema_tx_disaster_declarations**,当天正式声明的德州 FEMA 灾害编号数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,events
+M5-TX3-FOODS,fema_tx_disasters_active**,当天处于事件发生期的德州 FEMA 灾害编号数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,events
+M5-TX3-FOODS,m5_event_name_1,M5 日历的第一个节日或事件名称；无事件时留空。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,false,true,events
+M5-TX3-FOODS,m5_event_name_2,M5 日历的第二个节日或事件名称；无第二事件时留空。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,false,true,events
+M5-TX3-FOODS,m5_event_type_2,第二个 M5 日历事件的类别；无第二事件时留空。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,false,false,
+M5-TX3-FOODS,m5_month,M5 日历月份，1–12。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+M5-TX3-FOODS,m5_snap_tx,M5 日历中的德州 SNAP 发放日标记，0/1。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_1;events
+M5-TX3-FOODS,m5_tx3_food_items_priced**,当周在 TX_3 有售价记录的 FOODS 商品数。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+M5-TX3-FOODS,m5_tx3_food_mean_sell_price**,TX_3 FOODS 商品当周售价的商品等权平均值，美元。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+M5-TX3-FOODS,m5_tx3_food_median_sell_price**,TX_3 FOODS 商品当周售价的中位数，美元。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+M5-TX3-FOODS,m5_tx3_food_price_change_item_share**,当周与前周相比售价发生变化的可比 FOODS 商品占比。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+M5-TX3-FOODS,m5_tx3_food_price_cut_item_share**,当周与前周相比售价下降的可比 FOODS 商品占比。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+M5-TX3-FOODS,noaa_tx_flood_event_starts,当天在德州开始的 NOAA 洪水类事件记录数。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+M5-TX3-FOODS,noaa_tx_hail_event_starts,当天在德州开始的 NOAA 冰雹事件记录数。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+M5-TX3-FOODS,noaa_tx_state_prcp_mm,德州全州逐日平均降水量，毫米。,mm,mm,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+M5-TX3-FOODS,noaa_tx_state_tavg_c,德州全州逐日平均气温，摄氏度。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+M5-TX3-FOODS,noaa_tx_state_tmax_c,德州全州逐日平均最高气温，摄氏度。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+M5-TX3-FOODS,noaa_tx_state_tmin_c,德州全州逐日平均最低气温，摄氏度。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+M5-TX3-FOODS,noaa_tx_storm_event_starts,当天在德州开始的 NOAA 风暴事件记录总数。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+M5-TX3-FOODS,noaa_tx_storm_events_active,当天在德州处于持续期的 NOAA 风暴事件记录数。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+M5-TX3-FOODS,noaa_tx_tornado_event_starts,当天在德州开始的 NOAA 龙卷风事件记录数。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+M5-TX3-FOODS,noaa_tx_wind_event_starts,当天在德州开始的 NOAA 强风或雷暴风类事件记录数。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+M5-TX3-FOODS,noaa_tx_winter_event_starts,当天在德州开始的 NOAA 冬季天气类事件记录数。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+M5-TX3-FOODS,usda_snap_tx_days_since_issue,距德州上一次计划 SNAP 发放日的天数。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_1;events
+M5-TX3-FOODS,usda_snap_tx_days_to_next_issue,距德州下一次计划 SNAP 发放日的天数。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_1;events
+M5-TX3-FOODS,usda_snap_tx_issue_day,根据 USDA 德州计划发放日历生成的发放日标记，0/1。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_1;events
+RetailII-NetQty,apparel***,服饰与服装数量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+RetailII-NetQty,bags_storage***,箱包与收纳数量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+RetailII-NetQty,day_of_week,星期编码，0=周一至6=周日,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+RetailII-NetQty,dewpoint_c,伦敦希思罗站小时露点温度,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+RetailII-NetQty,extreme_weather_event_flag,官方确认的极端天气事件是否正在发生,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+RetailII-NetQty,extreme_weather_event_name,官方极端天气事件名称,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,false,false,drivers_2
+RetailII-NetQty,extreme_weather_flag,气温≤0°C或风速≥15m/s,degC,dimensionless,confirmed,numeric_binary_indicator,"Numeric 0/1 indicator, not a temperature or precipitation amount. Preserve its numeric dtype and values.",history_and_future,benchmark_known_future,true,true,drivers_2;events
+RetailII-NetQty,garden_outdoor***,园艺与户外数量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+RetailII-NetQty,holiday_shopping_flag,节假日或购物季是否正在发生,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+RetailII-NetQty,holiday_shopping_name,节假日/购物季当前状态或距离状态,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,false,true,drivers_2;events
+RetailII-NetQty,home_decor***,家居装饰与摆件数量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+RetailII-NetQty,home_textiles***,家用纺织品数量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+RetailII-NetQty,is_dst,是否处于英国夏令时,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+RetailII-NetQty,is_dst_transition_hour,是否为夏令时切换小时,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+RetailII-NetQty,jewelry_wearables***,首饰与穿戴配件数量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+RetailII-NetQty,kitchen_baking***,餐厨与烘焙数量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+RetailII-NetQty,lighting_candles***,灯具与蜡烛数量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+RetailII-NetQty,logistics_disruption_flag**,物流/交通中断事件是否正在发生,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_2
+RetailII-NetQty,major_sports_flag,大型体育赛事是否正在发生,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+RetailII-NetQty,major_sports_name,大型体育赛事当前状态或距离状态,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,false,true,drivers_2;events
+RetailII-NetQty,national_major_event_flag,全国性重大活动是否正在发生,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+RetailII-NetQty,national_major_event_name,全国性重大活动当前状态或距离状态,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,false,false,drivers_2
+RetailII-NetQty,non_product_business***,非商品业务项数量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+RetailII-NetQty,other***,其他或无法进一步归类数量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+RetailII-NetQty,personal_care_fragrance***,个人护理与香氛数量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+RetailII-NetQty,personal_travel***,个人出行用品数量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+RetailII-NetQty,policy_event_flag,政策事件是否正在发生；当前保留用于观察,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+RetailII-NetQty,policy_event_name,政策事件名称或距离状态,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,false,true,drivers_2;events
+RetailII-NetQty,sea_level_pressure_hpa,海平面气压,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+RetailII-NetQty,stationery_paper***,文具与纸品数量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+RetailII-NetQty,temperature_c,伦敦希思罗站小时气温,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+RetailII-NetQty,toys_games***,玩具与游戏数量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+RetailII-NetQty,wind_speed_mps,平均风速,m/s,m/s,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+IndustryHeat-ActiveUnits,aq_AQI_mean,城市AQI平均值，无量纲。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+IndustryHeat-ActiveUnits,aq_AQI_median,城市AQI中位数，无量纲。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+IndustryHeat-ActiveUnits,aq_CO_24h_mean,原归档24小时口径一氧化碳浓度的跨城市平均值，mg/m³。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+IndustryHeat-ActiveUnits,aq_CO_24h_median,原归档24小时口径一氧化碳浓度的跨城市中位数，mg/m³。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+IndustryHeat-ActiveUnits,aq_NO2_24h_mean,原归档24小时口径二氧化氮NO₂浓度的跨城市平均值，μg/m³。,g/m3,ug/m3,confirmed,pollutant_mass_concentration,"Micrograms per cubic metre (ug/m3, equivalent to the source notation microgram/m^3); retain the recorded numerical concentration.",history_and_future,benchmark_known_future,true,false,drivers_2
+IndustryHeat-ActiveUnits,aq_NO2_24h_median,原归档24小时口径二氧化氮NO₂浓度的跨城市中位数，μg/m³。,g/m3,ug/m3,confirmed,pollutant_mass_concentration,"Micrograms per cubic metre (ug/m3, equivalent to the source notation microgram/m^3); retain the recorded numerical concentration.",history_and_future,benchmark_known_future,true,false,drivers_2
+IndustryHeat-ActiveUnits,aq_O3_8h_24h_mean,原归档O₃_8h_24h口径臭氧浓度的跨城市平均值，μg/m³。,g/m3,ug/m3,confirmed,pollutant_mass_concentration,"Micrograms per cubic metre (ug/m3, equivalent to the source notation microgram/m^3); retain the recorded numerical concentration.",history_and_future,benchmark_known_future,true,false,drivers_2
+IndustryHeat-ActiveUnits,aq_PM10_24h_mean,原归档24小时口径颗粒物PM10浓度的跨城市平均值，μg/m³。,g/m3,ug/m3,confirmed,pollutant_mass_concentration,"Micrograms per cubic metre (ug/m3, equivalent to the source notation microgram/m^3); retain the recorded numerical concentration.",history_and_future,benchmark_known_future,true,false,drivers_2
+IndustryHeat-ActiveUnits,aq_PM10_24h_median,原归档24小时口径颗粒物PM10浓度的跨城市中位数，μg/m³。,g/m3,ug/m3,confirmed,pollutant_mass_concentration,"Micrograms per cubic metre (ug/m3, equivalent to the source notation microgram/m^3); retain the recorded numerical concentration.",history_and_future,benchmark_known_future,true,false,drivers_2
+IndustryHeat-ActiveUnits,aq_PM2.5_24h_mean,原归档24小时口径细颗粒物PM2.5浓度的跨城市平均值，μg/m³。,g/m3,ug/m3,confirmed,pollutant_mass_concentration,"Micrograms per cubic metre (ug/m3, equivalent to the source notation microgram/m^3); retain the recorded numerical concentration.",history_and_future,benchmark_known_future,true,false,drivers_2
+IndustryHeat-ActiveUnits,aq_PM2.5_24h_median,原归档24小时口径细颗粒物PM2.5浓度的跨城市中位数，μg/m³。,g/m3,ug/m3,confirmed,pollutant_mass_concentration,"Micrograms per cubic metre (ug/m3, equivalent to the source notation microgram/m^3); retain the recorded numerical concentration.",history_and_future,benchmark_known_future,true,false,drivers_2
+IndustryHeat-ActiveUnits,aq_SO2_24h_mean,原归档24小时口径二氧化硫SO₂浓度的跨城市平均值，μg/m³。,g/m3,ug/m3,confirmed,pollutant_mass_concentration,"Micrograms per cubic metre (ug/m3, equivalent to the source notation microgram/m^3); retain the recorded numerical concentration.",history_and_future,benchmark_known_future,true,false,drivers_2
+IndustryHeat-ActiveUnits,aq_SO2_24h_median,原归档24小时口径二氧化硫SO₂浓度的跨城市中位数，μg/m³。,g/m3,ug/m3,confirmed,pollutant_mass_concentration,"Micrograms per cubic metre (ug/m3, equivalent to the source notation microgram/m^3); retain the recorded numerical concentration.",history_and_future,benchmark_known_future,true,false,drivers_2
+IndustryHeat-ActiveUnits,aq_SO2_NO2_ratio,原表SO₂/NO₂比值，无量纲；不是直接工业排放量。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+IndustryHeat-ActiveUnits,calendar_event_text**,简短事件文本：节日及假期位置/长度、调休补班、补休、节前/后7天窗口、疫情延假；零值属性省略。,source_unit_unverified,,unspecified,,,history_only,history_only,false,true,drivers_3;events
+IndustryHeat-ActiveUnits,calendar_is_rest_day**,1=休息日，0=工作日，包含中国内地调休安排。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+IndustryHeat-ActiveUnits,covid_c2_geographic_flag**,工作场所关闭范围：0=针对部分地区，1=普遍实施；强度为0时不适用。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+IndustryHeat-ActiveUnits,covid_c2_workplace_closing**,工作场所关闭强度0—3：无、建议、要求部分行业关闭、要求除必要行业外关闭。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+IndustryHeat-ActiveUnits,covid_c5_geographic_flag**,公共交通关闭范围：0=针对部分地区，1=普遍实施；强度为0时不适用。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+IndustryHeat-ActiveUnits,covid_c5_public_transport_closing**,公共交通关闭强度0—2：无、建议关闭、要求关闭。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+IndustryHeat-ActiveUnits,covid_c6_geographic_flag**,居家措施范围：0=针对部分地区，1=普遍实施；强度为0时不适用。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+IndustryHeat-ActiveUnits,covid_c6_stay_home**,居家要求0—3：无、建议、允许必要外出的居家要求、更严格限制外出。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+IndustryHeat-ActiveUnits,covid_c7_geographic_flag**,国内流动限制范围：0=针对部分地区，1=普遍实施；强度为0时不适用。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+IndustryHeat-ActiveUnits,covid_c7_internal_movement**,国内跨地区流动限制0—2：无、建议限制、要求限制。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+IndustryHeat-ActiveUnits,covid_c8_international_travel**,国际旅行管制0—4：无、筛查、隔离、部分入境禁令、全面边境关闭。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+IndustryHeat-ActiveUnits,covid_containment_health_index**,防控与卫生综合指数，0—100。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+IndustryHeat-ActiveUnits,covid_government_response_index**,政府响应综合指数，0—100，涵盖限制、经济及卫生措施。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+IndustryHeat-ActiveUnits,covid_province_c2_ge2_fraction**,31省中工作场所关闭强度≥2的省份比例，0—1，省份等权。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+IndustryHeat-ActiveUnits,covid_province_c2_ge2_general_fraction**,31省中关闭强度≥2且普遍实施的省份比例，0—1。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+IndustryHeat-ActiveUnits,covid_province_c2_ge2_targeted_fraction**,31省中关闭强度≥2且针对部分地区实施的省份比例，0—1。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+IndustryHeat-ActiveUnits,covid_stringency_index**,限制措施严格程度指数，0—100；不直接代表所有地区同等限制。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+IndustryHeat-ActiveUnits,ev_heating_extended,扩展供暖季代理：10月—次年3月为1；非全国实际供暖状态。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_3;events
+IndustryHeat-ActiveUnits,ev_heating_official,北方固定官方供暖季代理：11月15日—次年3月15日为1。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_3;events
+IndustryHeat-ActiveUnits,hc_cloud_cover_mean_wmean,热源加权日平均总云量，%。,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+IndustryHeat-ActiveUnits,hc_cloud_ma7,热源加权云量过去7天移动平均，含当日，%。,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+IndustryHeat-ActiveUnits,hc_precip_sum_7d,热源加权降水量过去7天累计，含当日，mm。,mm,mm,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+IndustryHeat-ActiveUnits,hc_precipitation_sum_wmean,热源加权日降水量，mm。,mm,mm,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+IndustryHeat-ActiveUnits,hc_relative_humidity_2m_mean_wmean,热源加权2米日平均相对湿度，%。,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+IndustryHeat-ActiveUnits,hc_shortwave_radiation_sum_wmean,热源加权日累计短波辐射，MJ/m²。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+IndustryHeat-ActiveUnits,hc_surface_pressure_mean_wmean,热源加权日平均地面气压，hPa。,hPa,hPa,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+IndustryHeat-ActiveUnits,hc_temperature_2m_max_wmean,各代表点2米日最高气温的热源加权平均，°C。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+IndustryHeat-ActiveUnits,hc_temperature_2m_mean_wmean,热源加权的2米日平均气温，°C。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+IndustryHeat-ActiveUnits,hc_temperature_2m_min_wmean,各代表点2米日最低气温的热源加权平均，°C。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+IndustryHeat-ActiveUnits,hc_wind_speed_10m_max_wmean,各代表点10米日最大风速的热源加权平均，km/h。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+IndustryHeat-ActiveUnits,hc_wind_speed_10m_mean_wmean,热源加权10米日平均风速，km/h。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+IndustryHeat-ActiveUnits,met_cn31cap_cdd22_degree_days_mean,"各点先计算max(日平均温−22,0)，再等权平均的制冷度日，°C·日。",degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+IndustryHeat-ActiveUnits,met_cn31cap_hdd18_degree_days_mean,"各点先计算max(18−日平均温,0)，再等权平均的采暖度日，°C·日。",degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+IndustryHeat-ActiveUnits,met_cn31cap_low_cloud_pct_mean,31点日平均低云量的等权平均，%。,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+IndustryHeat-ActiveUnits,met_cn31cap_pbl_height_m_mean,31点日平均边界层高度的等权平均，m。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+IndustryHeat-ActiveUnits,met_cn31cap_snowfall_cm_mean,31点日降雪量的等权平均，cm。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+IndustryHeat-ActiveUnits,met_cn31cap_sunshine_hours_mean,31点日照时长的等权平均，小时。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+IndustryHeat-ActiveUnits,met_cn31cap_temperature_c_mean,31点日平均气温的等权平均，°C。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+IndustryHeat-ActiveUnits,policy_air_plan_active**,大气十条或蓝天保卫战计划处于原文件政策实施规划期则为1，否则为0。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+IndustryHeat-ActiveUnits,policy_air_plan_text**,政策简称及政策实施规划期，发布当天附发布日；无事件为“无”。固定期限、范围及来源见事件文本编码说明。,source_unit_unverified,,unspecified,,,history_only,history_only,false,true,drivers_3;events
+IndustryHeat-ActiveUnits,policy_reopen_post_publication**,2020-02-22复工防疫指南发布后为1，之前为0；不是实际复工率。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+IndustryHeat-ActiveUnits,policy_reopen_text**,复工防疫指南及发布后阶段，发布当天附发布日；发布前为“无”。固定发布日期、范围及来源见事件文本编码说明。,source_unit_unverified,,unspecified,,,history_only,history_only,false,true,drivers_3;events
+IndustryHeat-ActiveUnits,wx_cloud_max,城市日云量指标的跨城市最大值，%。,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+IndustryHeat-ActiveUnits,wx_cloud_p90,城市日云量指标的跨城市第90百分位数，%。,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+IndustryHeat-ActiveUnits,wx_precip_max,城市日降水指标的跨城市最大值，mm。,mm,mm,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+IndustryHeat-ActiveUnits,wx_precip_p90,城市日降水指标的跨城市第90百分位数，mm。,mm,mm,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+IndustryHeat-ActiveUnits,wx_precip_sum_30d,聚合降水量过去30天累计，含当日，mm。,mm,mm,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+IndustryHeat-ActiveUnits,wx_snowfall_sum_mean,各城市日降雪量的平均，cm。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+IndustryHeat-ActiveUnits,wx_wind_direction_10m_dominant_mean,原表跨城市聚合的10米主导风向，度；风向聚合算法未完整交付。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+IndustryHeat-ActiveUnits,wx_wind_gusts_10m_max_mean,各城市10米日最大阵风的平均，km/h。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+IndustryHeat-ActiveUnits,wx_wind_p90,城市日风速指标的跨城市第90百分位数，km/h。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+MotorOil-GR-TI824,AxialDisplacement_ZI800BA**,轴向位移测点ZI800BA,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+MotorOil-GR-TI824,AxialDisplacement_ZI800BB**,轴向位移测点ZI800BB,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+MotorOil-GR-TI824,AxialDisplacement_ZI801BA**,轴向位移测点ZI801BA,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+MotorOil-GR-TI824,AxialDisplacement_ZI801BB**,轴向位移测点ZI801BB,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+MotorOil-GR-TI824,Pressure_PI808**,压力测点PI808,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+MotorOil-GR-TI824,Pressure_PI823**,压力测点PI823,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+MotorOil-GR-TI824,Pressure_PI845**,压力测点PI845,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+MotorOil-GR-TI824,Pressure_PI870**,压力测点PI870,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+MotorOil-GR-TI824,RotationalSpeed_SI865R**,转速测点SI865R,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+MotorOil-GR-TI824,Temperature_TI821**,温度测点TI821,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+MotorOil-GR-TI824,Temperature_TI822**,温度测点TI822,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+MotorOil-GR-TI824,Temperature_TI827**,温度测点TI827,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+MotorOil-GR-TI824,Temperature_TI828**,温度测点TI828,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+MotorOil-GR-TI824,Temperature_TI829**,温度测点TI829,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+MotorOil-GR-TI824,Temperature_TI830**,温度测点TI830,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+MotorOil-GR-TI824,Temperature_TI831**,温度测点TI831,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+MotorOil-GR-TI824,Temperature_TI832**,温度测点TI832,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+MotorOil-GR-TI824,Temperature_TI834**,温度测点TI834,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+MotorOil-GR-TI824,Temperature_TI836**,温度测点TI836,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+MotorOil-GR-TI824,UnconfirmedDifferentialPressure_PDI853**,具体含义未知；按命名惯例推测为压差，未确认,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+MotorOil-GR-TI824,UnknownSensor_XI821BX**,含义未知,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+MotorOil-GR-TI824,UnknownSensor_XI822BY**,含义未知,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+MotorOil-GR-TI824,UnknownSensor_XI823BX**,含义未知,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+MotorOil-GR-TI824,UnknownSensor_XI824BX**,含义未知,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+Abilene-SEA-NYC,ATLAM5_NYCMng**,ATLAM5 到 NYCMng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,ATLAng_CHINng**,ATLAng 到 CHINng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+Abilene-SEA-NYC,ATLAng_KSCYng**,ATLAng 到 KSCYng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+Abilene-SEA-NYC,ATLAng_NYCMng**,ATLAng 到 NYCMng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,ATLAng_SNVAng**,ATLAng 到 SNVAng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+Abilene-SEA-NYC,ATLAng_STTLng**,ATLAng 到 STTLng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,ATLAng_WASHng**,ATLAng 到 WASHng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+Abilene-SEA-NYC,CHINng_NYCMng**,CHINng 到 NYCMng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,CHINng_SNVAng**,CHINng 到 SNVAng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+Abilene-SEA-NYC,CHINng_STTLng**,CHINng 到 STTLng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,CHINng_WASHng**,CHINng 到 WASHng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+Abilene-SEA-NYC,DNVRng_ATLAng**,DNVRng 到 ATLAng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+Abilene-SEA-NYC,DNVRng_KSCYng**,DNVRng 到 KSCYng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+Abilene-SEA-NYC,DNVRng_NYCMng**,DNVRng 到 NYCMng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,DNVRng_STTLng**,DNVRng 到 STTLng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,HSTNng_CHINng**,HSTNng 到 CHINng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+Abilene-SEA-NYC,HSTNng_NYCMng**,HSTNng 到 NYCMng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,HSTNng_STTLng**,HSTNng 到 STTLng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,IPLSng_ATLAng**,IPLSng 到 ATLAng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+Abilene-SEA-NYC,IPLSng_CHINng**,IPLSng 到 CHINng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+Abilene-SEA-NYC,IPLSng_NYCMng**,IPLSng 到 NYCMng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,IPLSng_SNVAng**,IPLSng 到 SNVAng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+Abilene-SEA-NYC,IPLSng_STTLng**,IPLSng 到 STTLng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,KSCYng_CHINng**,KSCYng 到 CHINng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+Abilene-SEA-NYC,KSCYng_NYCMng**,KSCYng 到 NYCMng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,KSCYng_SNVAng**,KSCYng 到 SNVAng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+Abilene-SEA-NYC,KSCYng_STTLng**,KSCYng 到 STTLng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,LOSAng_ATLAM5**,LOSAng 到 ATLAM5 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+Abilene-SEA-NYC,LOSAng_IPLSng**,LOSAng 到 IPLSng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+Abilene-SEA-NYC,LOSAng_KSCYng**,LOSAng 到 KSCYng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+Abilene-SEA-NYC,LOSAng_NYCMng**,LOSAng 到 NYCMng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,LOSAng_STTLng**,LOSAng 到 STTLng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,NYCMng_ATLAM5**,NYCMng 到 ATLAM5 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,NYCMng_ATLAng**,NYCMng 到 ATLAng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,NYCMng_CHINng**,NYCMng 到 CHINng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,NYCMng_DNVRng**,NYCMng 到 DNVRng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,NYCMng_HSTNng**,NYCMng 到 HSTNng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,NYCMng_IPLSng**,NYCMng 到 IPLSng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,NYCMng_KSCYng**,NYCMng 到 KSCYng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,NYCMng_LOSAng**,NYCMng 到 LOSAng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,NYCMng_SNVAng**,NYCMng 到 SNVAng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,NYCMng_STTLng**,NYCMng 到 STTLng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,NYCMng_WASHng**,NYCMng 到 WASHng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,SNVAng_ATLAng**,SNVAng 到 ATLAng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+Abilene-SEA-NYC,SNVAng_NYCMng**,SNVAng 到 NYCMng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,SNVAng_STTLng**,SNVAng 到 STTLng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,STTLng_ATLAng**,STTLng 到 ATLAng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,STTLng_CHINng**,STTLng 到 CHINng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,STTLng_DNVRng**,STTLng 到 DNVRng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,STTLng_HSTNng**,STTLng 到 HSTNng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,STTLng_IPLSng**,STTLng 到 IPLSng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,STTLng_KSCYng**,STTLng 到 KSCYng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,STTLng_LOSAng**,STTLng 到 LOSAng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,STTLng_SNVAng**,STTLng 到 SNVAng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,STTLng_WASHng**,STTLng 到 WASHng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,WASHng_ATLAng**,WASHng 到 ATLAng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+Abilene-SEA-NYC,WASHng_CHINng**,WASHng 到 CHINng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+Abilene-SEA-NYC,WASHng_KSCYng**,WASHng 到 KSCYng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+Abilene-SEA-NYC,WASHng_NYCMng**,WASHng 到 NYCMng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,WASHng_STTLng**,WASHng 到 STTLng 的网络流量,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_1
+Abilene-SEA-NYC,academic_event_name,当前时间发生的学术日历事件具体名称,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,false,false,drivers_3
+Abilene-SEA-NYC,day_of_month,月份中的日期序号,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+Abilene-SEA-NYC,extreme_weather_event_name,当前时间发生的极端天气事件具体名称,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,false,false,drivers_2;drivers_3
+Abilene-SEA-NYC,federal_holiday_name,当前时间发生的联邦节假日具体名称,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,false,true,drivers_3;events
+Abilene-SEA-NYC,is_academic_event,当前时间是否发生学术日历事件,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_3;events
+Abilene-SEA-NYC,is_daylight_saving_time_IPLSng,IPLSng 节点在该时刻是否处于夏令时,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+Abilene-SEA-NYC,is_daylight_saving_time_most_us_nodes,除 IPLSng 外节点在该时刻是否处于夏令时,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+Abilene-SEA-NYC,is_extreme_weather_event,当前时间是否发生极端天气事件,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;drivers_3;events
+Abilene-SEA-NYC,is_federal_holiday,当前时间是否发生联邦节假日,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_3;events
+Abilene-SEA-NYC,is_major_media_sport_event,当前时间是否发生大型媒体/体育事件,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_3;events
+Abilene-SEA-NYC,is_security_event**,当前时间是否发生网络安全事件,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+Abilene-SEA-NYC,is_special_federal_closure**,当前时间是否发生特殊联邦停工,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,events
+Abilene-SEA-NYC,major_media_sport_event_name,当前时间发生的大型媒体/体育事件具体名称,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,false,false,drivers_3
+Abilene-SEA-NYC,security_event_name**,当前时间发生的网络安全事件具体名称,source_unit_unverified,,unspecified,,,history_only,history_only,false,false,drivers_3
+Abilene-SEA-NYC,special_federal_closure_name**,当前时间发生的特殊联邦停工具体名称,source_unit_unverified,,unspecified,,,history_only,history_only,false,true,events
+Abilene-SEA-NYC,time_cos_168h,168 小时周期的余弦时间编码,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+Abilene-SEA-NYC,time_cos_24h,24 小时周期的余弦时间编码,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+Abilene-SEA-NYC,time_sin_168h,168 小时周期的正弦时间编码,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+Abilene-SEA-NYC,time_sin_24h,24 小时周期的正弦时间编码,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+Abilene-SEA-NYC,weather_NYCMng_dew_point_c,NYCMng 节点代理站的露点温度,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1;drivers_2
+Abilene-SEA-NYC,weather_NYCMng_temperature_c,NYCMng 节点代理站的气温,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1;drivers_2
+Abilene-SEA-NYC,weather_NYCMng_visibility_m,NYCMng 节点代理站的能见度,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1;drivers_2
+Abilene-SEA-NYC,weather_STTLng_dew_point_c,STTLng 节点代理站的露点温度,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1;drivers_2
+Abilene-SEA-NYC,weather_STTLng_temperature_c,STTLng 节点代理站的气温,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1;drivers_2
+Abilene-SEA-NYC,weather_STTLng_visibility_m,STTLng 节点代理站的能见度,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1;drivers_2
+Wiki-EN-Views,calendar__annual_cos,年周期的余弦编码,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+Wiki-EN-Views,calendar__annual_sin,年周期的正弦编码,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+Wiki-EN-Views,calendar__day_of_year,年内第几天,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+Wiki-EN-Views,calendar__is_month_end,是否月末,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+Wiki-EN-Views,calendar__is_month_start,是否月初,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+Wiki-EN-Views,calendar__is_weekend,是否周末，1 为周六或周日,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+Wiki-EN-Views,calendar__iso_week,ISO 年内周序号,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+Wiki-EN-Views,calendar__month,月份，1–12,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+Wiki-EN-Views,calendar__weekday_monday0,星期序号，周一为 0、周日为 6,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_1
+Wiki-EN-Views,event__earthquake_m55plus_count**,USGS 当日全球震级 ≥5.5 的地震次数,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+Wiki-EN-Views,event__earthquake_m5plus_count**,USGS 当日全球震级 ≥5.0 的地震次数,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+Wiki-EN-Views,event__earthquake_m6plus_count**,USGS 当日全球震级 ≥6.0 的地震次数,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+Wiki-EN-Views,event__earthquake_m7plus_count**,USGS 当日全球震级 ≥7.0 的地震次数,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+Wiki-EN-Views,event__earthquake_max_magnitude**,当日记录到的最大地震震级；无对应地震时为空,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+Wiki-EN-Views,event__football_total_goals**,五个欧洲顶级足球联赛当日比赛总进球数,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,events
+Wiki-EN-Views,event__football_total_red_cards**,上述比赛有记录的红牌总数,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,events
+Wiki-EN-Views,event__gdacs_EQ_new_count**,GDACS 当日新开始的地震灾害事件期数,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+Wiki-EN-Views,event__gdacs_FL_new_count**,GDACS 当日新开始的洪水灾害事件期数,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+Wiki-EN-Views,event__gdacs_TC_new_count**,GDACS 当日新开始的热带气旋灾害事件期数,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+Wiki-EN-Views,event__gdacs_VO_new_count**,GDACS 当日新开始的火山灾害事件期数,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+Wiki-EN-Views,event__gdacs_new_episode_count**,GDACS 当日开始的灾害事件期数,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+Wiki-EN-Views,event__gdacs_orange_or_red_new_count**,GDACS 当日新开始、警报为橙色或红色的事件期数,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,drivers_3;events
+Wiki-EN-Views,event__ifes_election_count,IFES ElectionGuide 公开页中当日的选举条目数,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+Wiki-EN-Views,event__nobel_laureate_announcement_count,Nobel Prize API 中当日宣布的获奖者记录数,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+Wiki-EN-Views,event__ucdp_organized_violence_deaths_best**,UCDP 当日有组织暴力事件的最佳死亡人数估计之和,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,events
+Wiki-EN-Views,v4__gdelt_country_count**,GDELT 当日涉及的不同国家代码数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+Wiki-EN-Views,v4__gdelt_country_count_type_count**,GDELT 当日涉及的不同主题计数类型数（`COUNTTYPE`）,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+Wiki-EN-Views,v4__gdelt_country_topic_num_articles_sum**,GDELT 国家 × 主题记录的文章赋值数之和,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+Wiki-EN-Views,v4__gdelt_country_topic_record_count**,GDELT 当日带国家定位的新闻主题记录数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+Wiki-EN-Views,v4__gdelt_unlocated_topic_num_articles_sum**,上述无国家定位记录的文章赋值数之和,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+Wiki-EN-Views,v4__gdelt_unlocated_topic_record_count**,GDELT 当日没有国家定位的主题记录数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+Wiki-EN-Views,v4__ioda_affected_country_record_count**,IODA 当日网络中断摘要涉及的国家记录数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+Wiki-EN-Views,v4__nager_bank_holiday_population_share_supported_countries_2020,全国银行假期涉及人口占已支持国家 2020 年人口之比,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+Wiki-EN-Views,v4__nager_global_bank_holiday_country_count,当日有全国性银行假期的支持国家数,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+Wiki-EN-Views,v4__nager_global_public_holiday_country_count,Nager.Date 当日有全国性公众假期的支持国家数,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+Wiki-EN-Views,v4__nager_public_holiday_population_share_supported_countries_2020,全国公众假期涉及人口占已支持国家 2020 年人口之比,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+Wiki-EN-Views,v4__nager_regional_public_holiday_record_count,当日地区性公众假期记录数,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,drivers_2;events
+Wiki-EN-Views,v4__noaa_prcp_obs_count**,NOAA 当日降水量的站点观测条数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+Wiki-EN-Views,v4__noaa_tmax_ge_35c_obs_count,NOAA GHCN-Daily 当日最高气温 ≥35°C 的站点观测条数,degC,count,confirmed,observation_count,Number of station observations meeting the daily maximum temperature >=35 degC threshold; not a temperature.,history_and_future,benchmark_known_future,true,false,
+Wiki-EN-Views,v4__noaa_tmin_obs_count**,NOAA 当日最低气温的站点观测条数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,
+Wiki-EN-Views,v4__who_daily_new_cases_reporting_country_count**,WHO 当日有 COVID-19 新增病例报告值的国家/地区数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+Wiki-EN-Views,v4__who_daily_new_deaths_reporting_country_count**,WHO 当日有新增死亡报告值的国家/地区数,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+Wiki-EN-Views,v4__who_daily_new_deaths_sum**,WHO 当日各报告国家/地区 COVID-19 新增死亡数之和,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+CAMELS-SPAT_1,downstream__daymet_dayl,Daymet 流域平均日照时长。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+CAMELS-SPAT_1,downstream__daymet_pet,Daymet 流域平均日潜在蒸散发。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CAMELS-SPAT_1,downstream__daymet_prcp,Daymet 流域平均日降水量。,mm/day,mm/day,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CAMELS-SPAT_1,downstream__daymet_srad,Daymet 流域平均日太阳短波辐射。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+CAMELS-SPAT_1,downstream__daymet_tmax,Daymet 流域平均日最高气温。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CAMELS-SPAT_1,downstream__daymet_tmin,Daymet 流域平均日最低气温。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CAMELS-SPAT_1,downstream__daymet_vp,Daymet 流域平均日水汽压。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+CAMELS-SPAT_1,downstream__eccc_dry_day_flag,当前日总降水量等于 0；降水缺失时为空。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+CAMELS-SPAT_1,downstream__eccc_dry_streak_days,截至当前日连续总降水量为 0 的天数；降水缺失时为空，出现降水后重新计数。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+CAMELS-SPAT_1,downstream__eccc_freeze_thaw_flag,当前日日最低气温不高于 0°C 且日最高气温高于 0°C 的冻融转换标志。,degC,dimensionless,confirmed,numeric_binary_indicator,"Numeric 0/1 indicator, not a temperature or precipitation amount. Preserve its numeric dtype and values.",history_and_future,benchmark_known_future,true,true,events
+CAMELS-SPAT_1,downstream__eccc_heavy_precipitation_25mm_flag,当前日总降水量达到 25 mm 的候选强降水标志。,mm,dimensionless,confirmed,numeric_binary_indicator,"Numeric 0/1 indicator, not a temperature or precipitation amount. Preserve its numeric dtype and values.",history_and_future,benchmark_known_future,true,true,drivers_1;events
+CAMELS-SPAT_1,downstream__eccc_max_temperature_c,ECCC 日最高气温（°C）。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,
+CAMELS-SPAT_1,downstream__eccc_mean_temperature_c,ECCC 日平均气温（°C）。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,
+CAMELS-SPAT_1,downstream__eccc_min_temperature_c,ECCC 日最低气温（°C）。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,
+CAMELS-SPAT_1,downstream__eccc_precip_3d_mm,当前日及前 2 日的 3 日累计降水量（mm）；只有窗口内 3 天均有降水记录时才输出。,mm,mm,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CAMELS-SPAT_1,downstream__eccc_total_precipitation_mm,ECCC 日总降水量（mm），包括雨和雪。,mm,mm,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CAMELS-SPAT_1,downstream__eccc_total_rain_mm,ECCC 日总降雨量（mm）。,mm,mm,recorded,,,history_and_future,benchmark_known_future,true,false,
+CAMELS-SPAT_1,downstream__eccc_total_snow_cm,ECCC 日总降雪量（cm）。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CAMELS-SPAT_1,event__regional_disaster_count**,当前日期在对应网络范围内处于活动状态的区域灾害事件数量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,events
+CAMELS-SPAT_1,event__rfc_advisory_count,当前日期在对应网络范围内处于活动状态的BC 河流预报中心公告或预警事件数量。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+CAMELS-SPAT_1,event__rfc_advisory_low_confidence_count,当前日期在对应网络范围内处于活动状态且匹配置信度为低的BC 河流预报中心公告或预警事件数量。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+CAMELS-SPAT_1,event__wildfire_active**,当前日期是否至少有一个对应网络范围内活动的野火事件，1 表示有，0 表示没有。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,events
+CAMELS-SPAT_1,event__wildfire_count**,当前日期在对应网络范围内处于活动状态的野火事件数量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,events
+CAMELS-SPAT_1,event__wildfire_severities**,当前日期活动野火事件的严重程度标签，多个标签以 ` || ` 连接。,source_unit_unverified,,unspecified,,,history_only,history_only,false,true,events
+CAMELS-SPAT_1,upstream_1__daymet_dayl,Daymet 流域平均日照时长。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+CAMELS-SPAT_1,upstream_1__daymet_pet,Daymet 流域平均日潜在蒸散发。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CAMELS-SPAT_1,upstream_1__daymet_prcp,Daymet 流域平均日降水量。,mm/day,mm/day,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CAMELS-SPAT_1,upstream_1__daymet_srad,Daymet 流域平均日太阳短波辐射。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+CAMELS-SPAT_1,upstream_1__daymet_tmax,Daymet 流域平均日最高气温。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CAMELS-SPAT_1,upstream_1__daymet_tmin,Daymet 流域平均日最低气温。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CAMELS-SPAT_1,upstream_1__daymet_vp,Daymet 流域平均日水汽压。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+CAMELS-SPAT_1,upstream_1__q_obs*,上游场站同一自然日的观测流量；属于同期对齐，不表示提前量预测。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+CAMELS-SPAT_1,upstream_2__daymet_dayl,Daymet 流域平均日照时长。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+CAMELS-SPAT_1,upstream_2__daymet_pet,Daymet 流域平均日潜在蒸散发。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CAMELS-SPAT_1,upstream_2__daymet_prcp,Daymet 流域平均日降水量。,mm/day,mm/day,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CAMELS-SPAT_1,upstream_2__daymet_srad,Daymet 流域平均日太阳短波辐射。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+CAMELS-SPAT_1,upstream_2__daymet_tmax,Daymet 流域平均日最高气温。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CAMELS-SPAT_1,upstream_2__daymet_tmin,Daymet 流域平均日最低气温。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CAMELS-SPAT_1,upstream_2__daymet_vp,Daymet 流域平均日水汽压。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+CAMELS-SPAT_1,upstream_2__q_obs*,上游场站同一自然日的观测流量；属于同期对齐，不表示提前量预测。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+CAMELS-SPAT_2,downstream__daymet_dayl,Daymet 流域平均日照时长。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+CAMELS-SPAT_2,downstream__daymet_pet,Daymet 流域平均日潜在蒸散发。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CAMELS-SPAT_2,downstream__daymet_prcp,Daymet 流域平均日降水量。,mm/day,mm/day,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CAMELS-SPAT_2,downstream__daymet_srad,Daymet 流域平均日太阳短波辐射。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+CAMELS-SPAT_2,downstream__daymet_tmax,Daymet 流域平均日最高气温。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CAMELS-SPAT_2,downstream__daymet_tmin,Daymet 流域平均日最低气温。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CAMELS-SPAT_2,downstream__daymet_vp,Daymet 流域平均日水汽压。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+CAMELS-SPAT_2,event__regional_disaster_count**,当前日期在对应网络范围内处于活动状态的区域灾害事件数量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,events
+CAMELS-SPAT_2,event__rfc_advisory_count,当前日期在对应网络范围内处于活动状态的BC 河流预报中心公告或预警事件数量。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,true,events
+CAMELS-SPAT_2,event__wildfire_active**,当前日期是否至少有一个对应网络范围内活动的野火事件，1 表示有，0 表示没有。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,events
+CAMELS-SPAT_2,event__wildfire_count**,当前日期在对应网络范围内处于活动状态的野火事件数量。,source_unit_unverified,,unspecified,,,history_only,history_only,true,true,events
+CAMELS-SPAT_2,event__wildfire_severities**,当前日期活动野火事件的严重程度标签，多个标签以 ` || ` 连接。,source_unit_unverified,,unspecified,,,history_only,history_only,false,true,events
+CAMELS-SPAT_2,upstream_1__daymet_dayl,Daymet 流域平均日照时长。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+CAMELS-SPAT_2,upstream_1__daymet_pet,Daymet 流域平均日潜在蒸散发。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CAMELS-SPAT_2,upstream_1__daymet_prcp,Daymet 流域平均日降水量。,mm/day,mm/day,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CAMELS-SPAT_2,upstream_1__daymet_srad,Daymet 流域平均日太阳短波辐射。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+CAMELS-SPAT_2,upstream_1__daymet_tmax,Daymet 流域平均日最高气温。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CAMELS-SPAT_2,upstream_1__daymet_tmin,Daymet 流域平均日最低气温。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CAMELS-SPAT_2,upstream_1__daymet_vp,Daymet 流域平均日水汽压。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+CAMELS-SPAT_2,upstream_1__q_obs*,上游场站同一自然日的观测流量；属于同期对齐，不表示提前量预测。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+CAMELS-SPAT_2,upstream_2__daymet_dayl,Daymet 流域平均日照时长。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+CAMELS-SPAT_2,upstream_2__daymet_pet,Daymet 流域平均日潜在蒸散发。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CAMELS-SPAT_2,upstream_2__daymet_prcp,Daymet 流域平均日降水量。,mm/day,mm/day,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+CAMELS-SPAT_2,upstream_2__daymet_srad,Daymet 流域平均日太阳短波辐射。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+CAMELS-SPAT_2,upstream_2__daymet_tmax,Daymet 流域平均日最高气温。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CAMELS-SPAT_2,upstream_2__daymet_tmin,Daymet 流域平均日最低气温。,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+CAMELS-SPAT_2,upstream_2__daymet_vp,Daymet 流域平均日水汽压。,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,
+CAMELS-SPAT_2,upstream_2__q_obs*,上游场站同一自然日的观测流量；属于同期对齐，不表示提前量预测。,source_unit_unverified,,unspecified,,,history_only,history_only,true,false,drivers_3
+AQS-ThousandOaks-O3,ERA5_CLOUD_pct,格点总云量，单位%；按小时起点瞬时值对齐,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+AQS-ThousandOaks-O3,ERA5_DEWPOINT_C,格点2m高度露点温度，单位°C；按小时起点瞬时值对齐,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+AQS-ThousandOaks-O3,ERA5_PRECIP_mm,"格点本小时[t,t+1h)累计降水，单位mm",mm,mm,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+AQS-ThousandOaks-O3,ERA5_PRESSURE_hPa,格点地面气压，单位hPa；按小时起点瞬时值对齐,hPa,hPa,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2
+AQS-ThousandOaks-O3,ERA5_SOLAR_RAD_Wm2,"格点本小时[t,t+1h)平均短波辐射，单位W/m²，与本站辐射为不同来源",W/m2,W/m2,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+AQS-ThousandOaks-O3,LOCAL_HOUR,America/Los_Angeles当地民用小时，取值0—23，包含夏令时,hour,hour,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_3
+AQS-ThousandOaks-O3,LOCAL_WEEKDAY,当地民用星期，周一为0、周日为6,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_3
+AQS-ThousandOaks-O3,RH_pct,本站小时相对湿度，单位%,percent,percent,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+AQS-ThousandOaks-O3,SOLAR_ELEV_MID_deg,本站位置在小时中点的几何太阳高度角，单位度；负值表示太阳在地平线下,degree,degree,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+AQS-ThousandOaks-O3,SOLAR_RAD_Wm2,本站小时太阳辐射，单位W/m²；夜间观测0值保留,W/m2,W/m2,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+AQS-ThousandOaks-O3,TEMP_C,本站小时气温，单位°C,degC,degC,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_1
+AQS-ThousandOaks-O3,WIND_DIR_cos,风来自方位角的余弦值；与sin共同使用，静风或缺测时编码为空,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+AQS-ThousandOaks-O3,WIND_DIR_sin,风来自方位角的正弦值；与cos共同表示方向，避免0°/360°断点,source_unit_unverified,,unspecified,,,history_and_future,benchmark_known_future,true,false,drivers_2
+AQS-ThousandOaks-O3,WIND_SPEED_mps,本站小时风速，单位m/s,m/s,m/s,recorded,,,history_and_future,benchmark_known_future,true,false,drivers_2

@@ -1,0 +1,35 @@
+.venv/
+.env
+.env.*
+*.key
+*.sqlite
+*.sqlite-*
+**/__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
+.reproduction/
+runs/
+outputs/
+/benchmark_data/
+/results/
+/private_assets/
+*.bundle
+baselines/
+datasets/
+checkpoints/
+*.egg-info/
+build/
+dist/
+
+# Materialized from the admitted archives; keep the archive as the tracked source.
+/release/cache/
+/release/environment/
+/release/server_working_tree/
+/release/third_party_sources.json
+
+# Frozen code/data archives are deliberately checked into Git, not Git LFS.
+!release/assets/*.zip

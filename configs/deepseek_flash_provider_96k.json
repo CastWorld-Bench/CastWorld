@@ -1,0 +1,31 @@
+{
+  "endpoint": "https://api.gpt.ge/v1/chat/completions",
+  "model": "deepseek-v4-flash",
+  "api_key_env": "CASTBENCH_DEEPSEEK_KEY",
+  "tool_choice_mode": "auto",
+  "parallel_tool_calls": null,
+  "replay_rejected_messages": true,
+  "require_reasoning_content": true,
+  "assistant_passthrough_fields": [
+    "reasoning_content"
+  ],
+  "capacity_recovery": true,
+  "max_output_tokens": 96000,
+  "context_window_tokens": 1048576,
+  "context_safety_tokens": 2048,
+  "context_trigger_fraction": 0.55,
+  "token_count_mode": "utf8_conservative",
+  "temperature": null,
+  "timeout_seconds": 480,
+  "max_transport_attempts": 4,
+  "max_episode_transport_retries": 8,
+  "transport_retry_initial_seconds": 2.0,
+  "transport_retry_max_seconds": 60.0,
+  "stream_responses": true,
+  "extra_body": {
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "high"
+  }
+}

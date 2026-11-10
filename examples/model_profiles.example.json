@@ -1,0 +1,38 @@
+[
+  {
+    "name": "chronos", "engine": "chronos_original",
+    "python_executable": "ABSOLUTE_PATH_TO_CHRONOS_PYTHON",
+    "checkpoint": "ABSOLUTE_PATH_TO_PINNED_CHRONOS_CHECKPOINT",
+    "revision": "REPLACE_WITH_EXACT_REVISION", "checkpoint_digest": "REPLACE_WITH_SHA256_DIRECTORY_DIGEST",
+    "max_context": 512, "max_horizon": 64, "min_context": 8,
+    "point_method": "median", "device": "cpu", "dtype": "float32", "seed": 0, "num_samples": 20,
+    "dependency_versions": {"torch": "REPLACE", "chronos-forecasting": "REPLACE"}
+  },
+  {
+    "name": "timesfm", "engine": "timesfm_2p5",
+    "python_executable": "ABSOLUTE_PATH_TO_TIMESFM_PYTHON",
+    "checkpoint": "ABSOLUTE_PATH_TO_PINNED_TIMESFM_CHECKPOINT",
+    "revision": "REPLACE_WITH_EXACT_REVISION", "checkpoint_digest": "REPLACE_WITH_SHA256_DIRECTORY_DIGEST",
+    "max_context": 1024, "max_horizon": 256, "min_context": 8,
+    "point_method": "native", "device": "cpu", "dtype": "float32", "seed": 0, "num_samples": 20,
+    "dependency_versions": {"torch": "REPLACE", "timesfm": "REPLACE"}
+  },
+  {
+    "name": "sundial", "engine": "sundial",
+    "python_executable": "ABSOLUTE_PATH_TO_SUNDIAL_PYTHON",
+    "checkpoint": "ABSOLUTE_PATH_TO_PINNED_SUNDIAL_CHECKPOINT",
+    "revision": "REPLACE_WITH_EXACT_REVISION", "checkpoint_digest": "REPLACE_WITH_SHA256_DIRECTORY_DIGEST",
+    "max_context": 1024, "max_horizon": 256, "min_context": 8,
+    "point_method": "median", "device": "cpu", "dtype": "float32", "seed": 0, "num_samples": 20,
+    "dependency_versions": {"torch": "REPLACE", "transformers": "REPLACE"}
+  },
+  {
+    "name": "moirai", "engine": "moirai_1",
+    "python_executable": "ABSOLUTE_PATH_TO_MOIRAI_PYTHON",
+    "checkpoint": "ABSOLUTE_PATH_TO_PINNED_MOIRAI_CHECKPOINT",
+    "revision": "REPLACE_WITH_EXACT_REVISION", "checkpoint_digest": "REPLACE_WITH_SHA256_DIRECTORY_DIGEST",
+    "max_context": 512, "max_horizon": 256, "min_context": 8,
+    "point_method": "median", "device": "cpu", "dtype": "float32", "seed": 0, "num_samples": 100,
+    "dependency_versions": {"torch": "REPLACE", "uni2ts": "REPLACE", "gluonts": "REPLACE"}
+  }
+]

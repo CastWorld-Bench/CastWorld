@@ -1,0 +1,7 @@
+# Frozen manifests refer to exact file bytes on every operating system.
+* -text
+*.zip binary
+
+# Preserve approved display bytes and avoid treating uncompressed PDFs as text.
+/docs/assets/*.pdf binary
+/docs/assets/*.png binary

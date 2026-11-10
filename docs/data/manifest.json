@@ -1,0 +1,332 @@
+{
+  "schema": "castworld.dataset_documentation/1.0",
+  "scope": "Dataset documentation and field interpretation aligned to the released tasks.",
+  "datasets": 25,
+  "fields": 1220,
+  "unit_interpretations": 19,
+  "frozen_inputs": {
+    "release/assets/raw_iFLYTEK-PV.zip!datasets/iFLYTEK-PV/data.csv": {
+      "sha256": "d3c86b31ac0628c384a70b9b67c990d8ac816c35898fd88bbe15fdbfe44fbf0b",
+      "bytes": 18612691
+    },
+    "release/assets/raw_iFLYTEK-PV.zip!datasets/iFLYTEK-PV/report.md": {
+      "sha256": "4e3194342d11072c5bba3ac6a9f72984ed978fb652e0a7ba066161abf6518fbe",
+      "bytes": 8772
+    },
+    "release/assets/dataset_iFLYTEK-PV.zip!benchmark_data/profiles/iFLYTEK-PV.json": {
+      "sha256": "df7fc76f8bac007101430b5bfe4c0a982ff1a5589e2ca56e9ea5fd04957d2076",
+      "bytes": 12354
+    },
+    "release/assets/raw_iFLYTEK-Wind.zip!datasets/iFLYTEK-Wind/data.csv": {
+      "sha256": "d85e7bcb29a4cc3981f4ef4688fce42507a652ca31c94bc7fb5d68bc5b6482b0",
+      "bytes": 18324109
+    },
+    "release/assets/raw_iFLYTEK-Wind.zip!datasets/iFLYTEK-Wind/report.md": {
+      "sha256": "f99c403ed8f256c72ca244cbb09fb74d9b1cd1a49db672b9a15daf6ddb2db0b9",
+      "bytes": 7357
+    },
+    "release/assets/dataset_iFLYTEK-Wind.zip!benchmark_data/profiles/iFLYTEK-Wind.json": {
+      "sha256": "e9444494d01e686188f77c33c4d848f54a8bea94d38f9ec88af234e876abbed7",
+      "bytes": 12966
+    },
+    "release/assets/raw_CN-GD-Load.zip!datasets/CN-GD-Load/data.csv": {
+      "sha256": "176b1189b998e7878c0bb66d5467ba120f38d6f4470bed17fdfd722015d53b31",
+      "bytes": 1515549
+    },
+    "release/assets/raw_CN-GD-Load.zip!datasets/CN-GD-Load/report.md": {
+      "sha256": "d038c4c4da27c1265c3a5b37f6421e8babcf007e0c1e00be510eb0c4d55144d1",
+      "bytes": 8023
+    },
+    "release/assets/dataset_CN-GD-Load.zip!benchmark_data/profiles/CN-GD-Load.json": {
+      "sha256": "6e6c64eb475b0d28057cdcada5c5d0f936fec4b564db0014d4008a08428ec4b6",
+      "bytes": 10548
+    },
+    "release/assets/raw_OPSD-DELU-Price.zip!datasets/OPSD-DELU-Price/data.csv": {
+      "sha256": "3c5080e76b538a9bea333deea367b502eacc75c569a16f2356fb1b5284652869",
+      "bytes": 9070562
+    },
+    "release/assets/raw_OPSD-DELU-Price.zip!datasets/OPSD-DELU-Price/report.md": {
+      "sha256": "afba788cecf810f0a5d1bf3f1770bbb79990b0e80cc3ae9eb56742c4c89adba4",
+      "bytes": 18821
+    },
+    "release/assets/dataset_OPSD-DELU-Price.zip!benchmark_data/profiles/OPSD-DELU-Price.json": {
+      "sha256": "60739fecd2e20ce639e250ac61685cd5c526fe1760347969aef54482a4d04103",
+      "bytes": 21892
+    },
+    "release/assets/raw_WB-T850_1.zip!datasets/WB-T850_1/data.csv": {
+      "sha256": "80433443d35db5e7a97d9de337bde4884a2492ca971434204b51bdf05c4cc523",
+      "bytes": 15174421
+    },
+    "release/assets/raw_WB-T850_1.zip!datasets/WB-T850_1/report.md": {
+      "sha256": "c59acb721cd71f8d661620fc44cf0c0861c92d33441597056582d4869eb729ba",
+      "bytes": 5705
+    },
+    "release/assets/dataset_WB-T850_1.zip!benchmark_data/profiles/WB-T850_1.json": {
+      "sha256": "7f71e4ffec0dbc1829bbadbb622ae065e66c43fc4d984d9a2264d4f1a9d890de",
+      "bytes": 6612
+    },
+    "release/assets/raw_WB-T850_2.zip!datasets/WB-T850_2/data.csv": {
+      "sha256": "e8d3feb11c3ce61c334cacd4b30d5347a5b8b784b6d266700632b69b0be200f6",
+      "bytes": 15167007
+    },
+    "release/assets/raw_WB-T850_2.zip!datasets/WB-T850_2/report.md": {
+      "sha256": "461054050daa01bc32db78ca6263917fa3e5ab748069bf36e9e8cb2266899349",
+      "bytes": 4484
+    },
+    "release/assets/dataset_WB-T850_2.zip!benchmark_data/profiles/WB-T850_2.json": {
+      "sha256": "0b7f12464ddf0fa67683327ac451cb6845739208f3bb0583b2415597ef2011ee",
+      "bytes": 6612
+    },
+    "release/assets/raw_WB-T850_3.zip!datasets/WB-T850_3/data.csv": {
+      "sha256": "8916dfb93023568b56574910c3c67271bbee461e4b7214fbf37942dbe38fb6b6",
+      "bytes": 19269658
+    },
+    "release/assets/raw_WB-T850_3.zip!datasets/WB-T850_3/report.md": {
+      "sha256": "c81869108c8fde87518bd266c31186b11ff561a83ae55191e30456609fc9f74a",
+      "bytes": 5214
+    },
+    "release/assets/dataset_WB-T850_3.zip!benchmark_data/profiles/WB-T850_3.json": {
+      "sha256": "32c6478b3f7549a38fd3aa8004b36ed902199cea4e7900ace83d3381e83b79ef",
+      "bytes": 7946
+    },
+    "release/assets/raw_SILSO-Sunspot.zip!datasets/SILSO-Sunspot/data.csv": {
+      "sha256": "5952dfe163ae90111ab7f5716a049641579c1ca82c0da3b1bb6de770f4e37144",
+      "bytes": 377242
+    },
+    "release/assets/raw_SILSO-Sunspot.zip!datasets/SILSO-Sunspot/report.md": {
+      "sha256": "ca27639fa95c324e9ddfcf4f5ceaf8f909681b54f18347c638b4b2db9ca1cd74",
+      "bytes": 4598
+    },
+    "release/assets/dataset_SILSO-Sunspot.zip!benchmark_data/profiles/SILSO-Sunspot.json": {
+      "sha256": "37a284d09026497a609e217cb5ba863f51060b32df45141d57af9d8a545fd5e1",
+      "bytes": 5922
+    },
+    "release/assets/raw_US-RPI.zip!datasets/US-RPI/data.csv": {
+      "sha256": "dac7012d61ca6e9d5b48b2c2323215fd3f62d623873d7a192d58489bebcb8544",
+      "bytes": 589230
+    },
+    "release/assets/raw_US-RPI.zip!datasets/US-RPI/report.md": {
+      "sha256": "b74a776f3672c0ca0c085c40d2e89502bb67773c5c4a6560357dac129ab62f89",
+      "bytes": 15234
+    },
+    "release/assets/dataset_US-RPI.zip!benchmark_data/profiles/US-RPI.json": {
+      "sha256": "bad2b2f2b16e6f04874cb16fe063633dda7fe62df5b9dc4e933c387f41c5ed8c",
+      "bytes": 26513
+    },
+    "release/assets/raw_US-DFF.zip!datasets/US-DFF/data.csv": {
+      "sha256": "e5ba99af34812b93d4cb1a374426a5fa2f26c3692f73c0da20c648bcc6215761",
+      "bytes": 2002982
+    },
+    "release/assets/raw_US-DFF.zip!datasets/US-DFF/report.md": {
+      "sha256": "a4b9ac7137f3feadd7f6d589ce0d5d78f631dccf5683dd363eccbc08fb83b3c1",
+      "bytes": 8948
+    },
+    "release/assets/dataset_US-DFF.zip!benchmark_data/profiles/US-DFF.json": {
+      "sha256": "c4e26428a3e10e4b8f7fd9ccff719c689aec06a8aebfe7c37a45453cafb8ceb0",
+      "bytes": 10705
+    },
+    "release/assets/raw_CN-Port-Export.zip!datasets/CN-Port-Export/data.csv": {
+      "sha256": "b2d7cd76016695fc09aba6b9610d28f73469450ca9ff39827837dadad454e773",
+      "bytes": 442517
+    },
+    "release/assets/raw_CN-Port-Export.zip!datasets/CN-Port-Export/report.md": {
+      "sha256": "4999932335fe575075c49d43db1dfc170fa3d7434a750b15039083d2284f3179",
+      "bytes": 5648
+    },
+    "release/assets/dataset_CN-Port-Export.zip!benchmark_data/profiles/CN-Port-Export.json": {
+      "sha256": "fa4843373d90ac8e3c3da1f408f5c9c9f9fea5da035b5df36cc38bb268832ea9",
+      "bytes": 7688
+    },
+    "release/assets/raw_CapitalBikeshare.zip!datasets/CapitalBikeshare/data.csv": {
+      "sha256": "bfd4bdd09ae74c6572cd5fee4bcdbbdb2a7a73ec80ff1956f5e10a65fe67fb0d",
+      "bytes": 2177742
+    },
+    "release/assets/raw_CapitalBikeshare.zip!datasets/CapitalBikeshare/report.md": {
+      "sha256": "8f90cdbd7a2f9237abf90d10c2c4f642bd88eeb22c137640ed96a22a88379df6",
+      "bytes": 4477
+    },
+    "release/assets/dataset_CapitalBikeshare.zip!benchmark_data/profiles/CapitalBikeshare.json": {
+      "sha256": "69ff224452cdc594eff81c848adc15c3f85657b51f44696f0a05c8a39738e333",
+      "bytes": 5237
+    },
+    "release/assets/raw_NYC-311.zip!datasets/NYC-311/data.csv": {
+      "sha256": "96b3b40eb20b5e98ecd3a90b0b0e175bf2c7d4a38397e8722bc697dd72b975a0",
+      "bytes": 861329
+    },
+    "release/assets/raw_NYC-311.zip!datasets/NYC-311/report.md": {
+      "sha256": "7ed7a67b1b2e50cd9b5b794cf354860f5b9025b04ba0048b7ccc53752e81afbf",
+      "bytes": 5709
+    },
+    "release/assets/dataset_NYC-311.zip!benchmark_data/profiles/NYC-311.json": {
+      "sha256": "57c08aa13eba46e46316c1a59383dc6a10391a9c4c9421e83b2dc730eaef36c4",
+      "bytes": 11792
+    },
+    "release/assets/raw_US-ICSA.zip!datasets/US-ICSA/data.csv": {
+      "sha256": "e8648f61b11ffea7644579515b0364f107789d865b8843011e30878ff0fc3ee2",
+      "bytes": 722067
+    },
+    "release/assets/raw_US-ICSA.zip!datasets/US-ICSA/report.md": {
+      "sha256": "dcf74058442d4921e4e95c1abb10de6f65d9f956c0ef7bf8f73ffa66ca302072",
+      "bytes": 16991
+    },
+    "release/assets/dataset_US-ICSA.zip!benchmark_data/profiles/US-ICSA.json": {
+      "sha256": "b5455e877d63704ecbb936e29fb994955935c9d8289b26018c24b9b7e9376f8b",
+      "bytes": 25962
+    },
+    "release/assets/raw_NYC-EMS.zip!datasets/NYC-EMS/data.csv": {
+      "sha256": "e153dfe48c3407204167fef2a907c42ccdeae9457f5ff9b84ddb2a9c840a6eb7",
+      "bytes": 1746086
+    },
+    "release/assets/raw_NYC-EMS.zip!datasets/NYC-EMS/report.md": {
+      "sha256": "8d2f4e547a81f53300f574aa91d82ae22d0a4e4054666db132c0299f0e58c209",
+      "bytes": 18805
+    },
+    "release/assets/dataset_NYC-EMS.zip!benchmark_data/profiles/NYC-EMS.json": {
+      "sha256": "85cfc8d358b6a4de1942708087021e5062bbdfe5008289c0cea2609f9badc141",
+      "bytes": 24388
+    },
+    "release/assets/raw_CN-Flu-PosRate.zip!datasets/CN-Flu-PosRate/data.csv": {
+      "sha256": "ae541fcf6f9f475f1625057f92719025d0f3cf12f2d91700e6275e50e4707c4f",
+      "bytes": 138288
+    },
+    "release/assets/raw_CN-Flu-PosRate.zip!datasets/CN-Flu-PosRate/report.md": {
+      "sha256": "dc8671a4dd1dafcfc9dacb717f1681b7b1f7625556b7aebd79a8005eeb7759a2",
+      "bytes": 6425
+    },
+    "release/assets/dataset_CN-Flu-PosRate.zip!benchmark_data/profiles/CN-Flu-PosRate.json": {
+      "sha256": "f15939851c5e330b4b4f1dc453205e9b71400d203f96b1b38493e57e02ebb7b1",
+      "bytes": 8757
+    },
+    "release/assets/raw_M5-TX3-FOODS.zip!datasets/M5-TX3-FOODS/data.csv": {
+      "sha256": "eca4a591d5e4ab83c3c4eaa2c623e3e3df0118582821e9c5c2878bc398541df7",
+      "bytes": 294199
+    },
+    "release/assets/raw_M5-TX3-FOODS.zip!datasets/M5-TX3-FOODS/report.md": {
+      "sha256": "25f92ebaed2fdca09220596f3a1180b7a18b3c147d5b984bcdd8d6d2fb95734f",
+      "bytes": 6257
+    },
+    "release/assets/dataset_M5-TX3-FOODS.zip!benchmark_data/profiles/M5-TX3-FOODS.json": {
+      "sha256": "ec0d848717722a38869fc7d4946fa9a1c8619fd2f10b36a7256254e44d48bf6a",
+      "bytes": 8473
+    },
+    "release/assets/raw_RetailII-NetQty.zip!datasets/RetailII-NetQty/data.csv": {
+      "sha256": "28627648a7a20d30123eafa61709173bd65977435cb3cac5b30b4923b318a75f",
+      "bytes": 1741866
+    },
+    "release/assets/raw_RetailII-NetQty.zip!datasets/RetailII-NetQty/report.md": {
+      "sha256": "c1f459f5bc4c61588a690bff3739820046a0e066d148534937f4784cebd59882",
+      "bytes": 6034
+    },
+    "release/assets/dataset_RetailII-NetQty.zip!benchmark_data/profiles/RetailII-NetQty.json": {
+      "sha256": "e91833c247e9677490b292879f676a43959b551eb7ebe462117555db0afe4660",
+      "bytes": 7218
+    },
+    "release/assets/raw_IndustryHeat-ActiveUnits.zip!datasets/IndustryHeat-ActiveUnits/data.csv": {
+      "sha256": "9610c13f05c0b6523706fe024d48f4b820ebff4828b4576938cccd1658614fe1",
+      "bytes": 1791021
+    },
+    "release/assets/raw_IndustryHeat-ActiveUnits.zip!datasets/IndustryHeat-ActiveUnits/report.md": {
+      "sha256": "02ba96b7b07ba864fdae6220ca5a8c61f3fe118d9de49529e3161a7c2463285c",
+      "bytes": 15350
+    },
+    "release/assets/dataset_IndustryHeat-ActiveUnits.zip!benchmark_data/profiles/IndustryHeat-ActiveUnits.json": {
+      "sha256": "db23639a770b10ac1152f96cae800cd18ecbbe97ee2f6be36948d55451586840",
+      "bytes": 18247
+    },
+    "release/assets/raw_MotorOil-GR-TI824.zip!datasets/MotorOil-GR-TI824/data.csv": {
+      "sha256": "ddf9ef01e9d086e8e85d1ba68281a4f5e8cbc1ae48cf7de8fd66678498badf3a",
+      "bytes": 17159608
+    },
+    "release/assets/raw_MotorOil-GR-TI824.zip!datasets/MotorOil-GR-TI824/report.md": {
+      "sha256": "2200c66c6d11b482c3a1eb3f44c170ec6b980285a35625ee45c46a2f3f90e554",
+      "bytes": 2362
+    },
+    "release/assets/dataset_MotorOil-GR-TI824.zip!benchmark_data/profiles/MotorOil-GR-TI824.json": {
+      "sha256": "34fd790fda8dbe1a5f1f5da14cd050255c1d45e3cdf093dc1ae9bb5ac1804236",
+      "bytes": 5125
+    },
+    "release/assets/raw_Abilene-SEA-NYC.zip!datasets/Abilene-SEA-NYC/data.csv": {
+      "sha256": "a8428af275255c0d3bdde8f625874134f1fcfd6e38226788d9bd5aee827d1c8b",
+      "bytes": 24710949
+    },
+    "release/assets/raw_Abilene-SEA-NYC.zip!datasets/Abilene-SEA-NYC/report.md": {
+      "sha256": "138fea96ce59ce44fe84d6e260fce9ac31c714819b1e1ddb34d2c15a66850eda",
+      "bytes": 10969
+    },
+    "release/assets/dataset_Abilene-SEA-NYC.zip!benchmark_data/profiles/Abilene-SEA-NYC.json": {
+      "sha256": "bc9bf6c631b21c99450308820dc9faef0bf9e2c90c46c2d5f9472d6e3e44fcb0",
+      "bytes": 18863
+    },
+    "release/assets/raw_Wiki-EN-Views.zip!datasets/Wiki-EN-Views/data.csv": {
+      "sha256": "1fe2eaeff949ba7a77796f20e4bfd7575065541990a614c8c9f181434b87c500",
+      "bytes": 118243
+    },
+    "release/assets/raw_Wiki-EN-Views.zip!datasets/Wiki-EN-Views/report.md": {
+      "sha256": "fa860fd5c325afbf03167edd2b1637221691be0699f6175ed5d60fe8fc83d04f",
+      "bytes": 8157
+    },
+    "release/assets/dataset_Wiki-EN-Views.zip!benchmark_data/profiles/Wiki-EN-Views.json": {
+      "sha256": "58a18723ee5610a6c845a205b320b502c6368c260a026e84869c4d63d192fac1",
+      "bytes": 12377
+    },
+    "release/assets/raw_CAMELS-SPAT_1.zip!datasets/CAMELS-SPAT_1/data.csv": {
+      "sha256": "b989f45f243839474711c51709153225c8f2c31d8000f850159c66887e0b357c",
+      "bytes": 6170614
+    },
+    "release/assets/raw_CAMELS-SPAT_1.zip!datasets/CAMELS-SPAT_1/report.md": {
+      "sha256": "144b005c98be5704916e413fcc7a2ad617f9087b3f47c6fb090b9aaf90da18fb",
+      "bytes": 8653
+    },
+    "release/assets/dataset_CAMELS-SPAT_1.zip!benchmark_data/profiles/CAMELS-SPAT_1.json": {
+      "sha256": "01c9d91ed930405c3ecd57a09ff9785da488a80b6c5ae0971ffc61123b238d98",
+      "bytes": 9963
+    },
+    "release/assets/raw_CAMELS-SPAT_2.zip!datasets/CAMELS-SPAT_2/data.csv": {
+      "sha256": "fa4553275e1f4a5e3998d8c3a8b3b1f1fe431ffdb93aa28ce1a7d0de9d4f11b7",
+      "bytes": 4402131
+    },
+    "release/assets/raw_CAMELS-SPAT_2.zip!datasets/CAMELS-SPAT_2/report.md": {
+      "sha256": "5a1f85be1480a20c45fcd48205d40db76bd2d6a11f45bb4fda4af55f9d6ebe3b",
+      "bytes": 4204
+    },
+    "release/assets/dataset_CAMELS-SPAT_2.zip!benchmark_data/profiles/CAMELS-SPAT_2.json": {
+      "sha256": "b41b519cf6c6f3e08c0a57f2fd5441a66274a545f144ed23fb2d3fa193eedb6c",
+      "bytes": 6855
+    },
+    "release/assets/raw_AQS-ThousandOaks-O3.zip!datasets/AQS-ThousandOaks-O3/data.csv": {
+      "sha256": "2780794a018c66f6223a8465cb124d5915d52fa3fc20a30cf513715544ed499c",
+      "bytes": 5718165
+    },
+    "release/assets/raw_AQS-ThousandOaks-O3.zip!datasets/AQS-ThousandOaks-O3/report.md": {
+      "sha256": "5da18fce79e98cd5fb4acfa793034a0594b73298d30646b17167fff869eb113e",
+      "bytes": 2916
+    },
+    "release/assets/dataset_AQS-ThousandOaks-O3.zip!benchmark_data/profiles/AQS-ThousandOaks-O3.json": {
+      "sha256": "fd0a969b20633ef8ad2ba6592325df5e85959da0a38c061544ad2b03261a94bc",
+      "bytes": 3468
+    }
+  },
+  "files": {
+    "docs/DATASETS.md": {
+      "sha256": "bc0241079ed36f5d7915d4afb45cd088ed1bf1ff07646c12dce82012c52c4b01",
+      "bytes": 7883
+    },
+    "docs/data/dataset_inventory.csv": {
+      "sha256": "847ccd0d647a358c513f7221aac71d15ecad1729006deb4849266ab440e14f92",
+      "bytes": 5598
+    },
+    "docs/data/field_dictionary.csv": {
+      "sha256": "72c117a77565ec206c2b036028ff3fbe7a4ccda0f39225f8906d43657deac6c8",
+      "bytes": 216019
+    },
+    "docs/data/field_dictionary.json": {
+      "sha256": "814abc335b20101d50f516279396486a97f7117041ca92e6493fd443b808b785",
+      "bytes": 655948
+    },
+    "docs/data/unit_interpretations.csv": {
+      "sha256": "c137cf65d7132529634267cf71d84909f51e77c778002e3dd71923a2a7c5b8c1",
+      "bytes": 9102
+    }
+  },
+  "new_model_calls": 0
+}

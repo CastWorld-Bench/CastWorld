@@ -1,0 +1,16 @@
+{
+  "endpoint": "https://YOUR_PROVIDER/v1/chat/completions",
+  "model": "EXACT_MODEL_VERSION",
+  "api_key_env": "CASTBENCH_API_KEY",
+  "max_output_tokens": 8192,
+  "output_token_parameter": "max_tokens",
+  "temperature": 0.0,
+  "timeout_seconds": 180,
+  "max_transport_attempts": 3,
+  "context_window_tokens": 32768,
+  "context_safety_tokens": 1024,
+  "context_trigger_fraction": 0.9,
+  "token_count_mode": "utf8_conservative",
+  "extra_body": {},
+  "assistant_passthrough_fields": ["reasoning_content", "reasoning", "reasoning_details"]
+}
