@@ -75,7 +75,7 @@ class ProjectSiteTests(unittest.TestCase):
         self.assertEqual(len(datasets), 25)
         self.assertEqual(len({row["domain"] for row in datasets}), 8)
         self.assertNotIn("GEFCom2012-Z6", {row["id"] for row in datasets})
-        for name in ("overview.png", "data-profiles.png"):
+        for name in ("overview.pdf", "overview.png", "data-profiles.png"):
             self.assertEqual((ROOT / "docs/assets" / name).read_bytes(),
                              (ROOT / "site/assets" / name).read_bytes())
 
@@ -102,7 +102,7 @@ class ProjectSiteTests(unittest.TestCase):
         html = (ROOT / "site/index.html").read_text(encoding="utf-8")
         for section in ("overview", "framework", "datasets"):
             self.assertIn('id="'+section+'"', html)
-        for family in ("CastSense", "CastFeat", "CastZoo", "CastKnowledge"):
+        for family in ("TimeSense", "TimeFeat", "TimeZoo", "TimeKnowledge"):
             self.assertIn(family, html)
 
     def test_generated_files_current(self):
@@ -140,7 +140,7 @@ class ProjectSiteTests(unittest.TestCase):
     def test_all_static_copy_has_chinese_translation(self):
         script = (ROOT / 'site/i18n.js').read_text(encoding='utf-8')
         translations = json.loads(re.search(r'const translations = (\{.*?\n  \});', script, re.S)[1])
-        names = {'CastWorld', 'Cast', 'World', 'CastSense', 'CastFeat', 'CastZoo', 'CastKnowledge',
+        names = {'CastWorld', 'Cast', 'World', 'TimeSense', 'TimeFeat', 'TimeZoo', 'TimeKnowledge',
                  'GitHub', 'MASE', 'RMSSE', '中文'}
         names.update(row['model'] for board in self.boards.values() for row in board['rows'])
         missing = []

@@ -15,7 +15,7 @@ CastWorld-A contains 300 high-quality, representative forecasting episodes and C
 
 ## Model-level scoring
 
-Model-level evaluation uses ForecastScore, ProcessScore, TrustScore, and EfficiencyScore on a 0-100 scale. TotalScore uses the existing weighting:
+Model-level evaluation assesses forecast quality (`ForecastScore`), process execution (`ProcessScore`), behavioral trustworthiness (`TrustScore`), and resource efficiency (`EfficiencyScore`) on a 0-100 scale. `TotalScore` uses the following weights:
 
 ```text
 TotalScore = 0.60 ForecastScore + 0.20 ProcessScore + 0.15 TrustScore + 0.05 EfficiencyScore

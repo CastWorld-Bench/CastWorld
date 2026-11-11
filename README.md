@@ -2,7 +2,7 @@
   <img src="docs/assets/brand/readme-banner.png" width="100%" alt="CastWorld" />
 </h1>
 
-<p align="center"><strong>An Agentic Benchmark for Context-Aware Time Series Forecasting</strong></p>
+<p align="center"><strong>Benchmarking Context-Aware Agentic Time Series Forecasting Beyond Predictive Accuracy</strong></p>
 
 <p align="center">
   <a href="https://forever-pan.github.io/CastWorld/"><img src="docs/assets/icons/link-project.svg" height="40" alt="Project Page" /></a>
@@ -21,12 +21,14 @@ CastWorld evaluates how LLM-driven agents acquire evidence, construct and revise
 
 - **Context-rich tasks.** Target histories, external variables, events, domain knowledge, and historical cases are organized under a unified context specification.
 - **A state-adaptive harness.** Acquisition, forecast, and execution state support evidence gathering, numerical revision, public checks, and final selection without prescribing one solution workflow.
-- **Decision-centric evaluation.** Follow predictive quality, process execution, behavioral trustworthiness, and resource efficiency, alongside system-level predictive comparisons.
+- **Decision-centric evaluation.** Assess forecast quality, process execution, behavioral trustworthiness, and resource efficiency, alongside systems-level predictive comparisons.
 
 [Project homepage](https://forever-pan.github.io/CastWorld/) · [Leaderboards](#leaderboards) · [Quick start](#quick-start) · [Dataset guide](docs/DATASETS.md) · [Evaluation guide](docs/EXPERIMENTS.md)
 
 <a id="leaderboards"></a>
 ## Leaderboards <img src="docs/assets/icons/trophy.svg" width="22" height="22" alt="" />
+
+The paper reports a 1,310-episode suite and a shared 250-episode comparison of 15 LLMs. The maintained A/B leaderboards use separate evaluation cohorts.
 
 | Cohort | Model | System | Ground truth |
 | --- | --- | --- | --- |
@@ -63,7 +65,7 @@ Awaiting evaluation. Model-level evaluation compares 15 LLMs under the same harn
 <a id="a-system"></a>
 ### A / Public (300 episodes) - System <img src="docs/assets/icons/chart-no-axes-combined.svg" width="22" height="22" alt="" />
 
-Awaiting evaluation. System-level evaluation compares 24 forecasting methods using MASE, RMSSE and average rank.
+Awaiting evaluation. Systems-level evaluation compares 24 forecasting methods using MASE, RMSSE and average rank.
 
 <!-- BEGIN A_SYSTEM_TABLE -->
 | Method | MASE | RMSSE | Avg. rank |
@@ -122,7 +124,7 @@ Awaiting evaluation. Model-level evaluation compares 15 LLMs under the same harn
 <a id="b-system"></a>
 ### B / Hidden (100 episodes) - System <img src="docs/assets/icons/chart-no-axes-combined.svg" width="22" height="22" alt="" />
 
-Awaiting evaluation. System-level evaluation compares 24 forecasting methods using MASE, RMSSE and average rank.
+Awaiting evaluation. Systems-level evaluation compares 24 forecasting methods using MASE, RMSSE and average rank.
 
 <!-- BEGIN B_SYSTEM_TABLE -->
 | Method | MASE | RMSSE | Avg. rank |
@@ -157,7 +159,7 @@ See the [board guide](docs/LEADERBOARDS.md) for their scope and the [Hugging Fac
 
 A/B numerical data use GIFT-Eval-style Hugging Face dataset directories and a GluonTS-compatible loader. See [A/B data access](docs/AB_DATA.md); existing Agent task packs supply context, knowledge, and tools.
 
-The distributed task release and maintained leaderboards cover A and B, each with Model-level and System-level evaluation.
+The distributed task release and maintained leaderboards cover A and B, each with model-level and systems-level evaluation.
 
 <a id="how-castworld-works"></a>
 ## How CastWorld works <img src="docs/assets/icons/workflow.svg" width="22" height="22" alt="" />
@@ -166,9 +168,9 @@ The distributed task release and maintained leaderboards cover A and B, each wit
 
 The **dataset suite** pairs target histories and forecast specifications with external variables, event timelines, domain knowledge, and historical cases under explicit access permissions. The context specification describes modality, temporality, semantics, and availability as complementary attributes.
 
-The **state-adaptive harness** lets evidence acquisition and forecasting inform each other: an intermediate forecast can motivate another query, and new evidence can guide a numerical revision. Shared acquisition, forecast, and execution state records what the agent has obtained, which versions it has created, execution feedback, and the remaining budget. Its 49 core tools support retrieval, analysis, forecast construction, and checking, alongside domain-specific diagnostic extensions. CastSense, CastFeat, CastZoo, and CastKnowledge organize the forecasting capabilities; the [benchmark specification](docs/BENCHMARK.md#resources-and-operations) connects them to the released interfaces.
+The **state-adaptive harness** lets evidence acquisition and forecasting inform each other: an intermediate forecast can motivate another query, and new evidence can guide a numerical revision. Shared acquisition, forecast, and execution state records what the agent has obtained, which versions it has created, execution feedback, and the remaining budget. Its 49 core tools support retrieval, analysis, forecast construction, and checking, alongside domain-specific diagnostic extensions. TimeSense, TimeFeat, TimeZoo, and TimeKnowledge organize the forecasting capabilities; the [benchmark specification](docs/BENCHMARK.md#resources-and-operations) connects them to the released interfaces.
 
-**Decision-centric evaluation** links the execution trajectory to immutable forecast versions, separating numerical revision from final selection. Held-out targets and frozen scoring profiles are used offline. Model-level evaluation compares LLMs under the same harness; System-level evaluation compares predictive accuracy across forecasting systems.
+**Decision-centric evaluation** links the execution trajectory to immutable forecast versions, separating numerical revision from final selection. Held-out targets and frozen scoring profiles are used offline. Model-level evaluation compares LLMs under the same harness; systems-level evaluation compares predictive accuracy across forecasting systems.
 
 The eight application domains are energy, natural sciences, economics and finance, public services, retail, industrial operations, Web services, and environment. See the [dataset and field guide](docs/DATASETS.md) for all 25 datasets, field meanings, units, and released access permissions.
 

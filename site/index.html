@@ -72,12 +72,13 @@
             <h1 id="project-title">Cast<span>World</span></h1>
           </div>
           <p class="project-subtitle">
-            An Agentic Benchmark for Context-Aware<br class="desktop-break" />
-            Time Series Forecasting
+            Benchmarking Context-Aware Agentic<br class="desktop-break" />
+            Time Series Forecasting Beyond Predictive Accuracy
           </p>
           <p class="project-summary">
-            A benchmark for how forecasting agents use context, adapt their
-            strategy, and turn evolving evidence into a final prediction.
+            Evaluate how forecasting agents acquire evidence, construct and revise
+            numerical forecasts, select final predictions, and use resources
+            under shared task conditions.
           </p>
           <div class="project-links">
             <a class="primary-link" href="#leaderboards"
@@ -164,12 +165,12 @@
           </p>
         </div>
         <figure class="overview-figure">
-          <a href="assets/overview.png" target="_blank" rel="noopener"
+          <a href="assets/overview.pdf" target="_blank" rel="noopener"
             ><img
               src="assets/overview.png"
               alt="CastWorld combines context-rich datasets, a state-adaptive forecasting harness and dual-level evaluation."
-              width="2200"
-              height="1100"
+              width="2400"
+              height="1309"
               fetchpriority="high"
           /></a>
           <figcaption>
@@ -198,9 +199,9 @@
             <span class="section-index">03 / EVALUATION</span>
             <h3>Follow decisions through to delivery</h3>
             <p>
-              Model-level evaluation links the final forecast to its trajectory.
-              System-level evaluation compares predictive accuracy across
-              methods.
+              Model-level evaluation is the primary focus, assessing decisions
+              under a common harness. Systems-level evaluation compares
+              predictive accuracy across methods.
             </p>
           </article>
         </div>
@@ -484,25 +485,25 @@
         <div class="toolkit-grid">
           <article>
             <i data-lucide="activity" aria-hidden="true"></i>
-            <h4>CastSense</h4>
-            <p>Temporal diagnostics and context-aware inspection.</p>
+            <h4>TimeSense</h4>
+            <p>Time series diagnostics.</p>
             <span>Understand the current situation</span>
           </article>
           <article>
             <i data-lucide="chart-no-axes-combined" aria-hidden="true"></i>
-            <h4>CastFeat</h4>
+            <h4>TimeFeat</h4>
             <p>Statistical and temporal feature extraction.</p>
             <span>Quantify patterns and changes</span>
           </article>
           <article>
             <i data-lucide="chart-spline" aria-hidden="true"></i>
-            <h4>CastZoo</h4>
+            <h4>TimeZoo</h4>
             <p>Chronos, TimesFM, Sundial, and Moirai forecasts.</p>
             <span>Form numerical candidates</span>
           </article>
           <article>
             <i data-lucide="library-big" aria-hidden="true"></i>
-            <h4>CastKnowledge</h4>
+            <h4>TimeKnowledge</h4>
             <p>Domain knowledge and historical analogue cases.</p>
             <span>Ground a forecasting judgment</span>
           </article>
@@ -535,11 +536,11 @@
             ></a>
           </div>
           <p class="section-intro">
-            CastWorld-A contains 300 public forecasting episodes and CastWorld-B
-            contains 100 episodes with organizer-held ground truth, drawn from
-            these 25 datasets. Model and System results are evaluated
-            independently on each cohort; all four boards are awaiting
-            evaluation.
+            The paper studies 1,310 episodes, including a shared 250-episode
+            comparison of 15 LLMs. The public release provides separate
+            A/B cohorts from the same 25 datasets: 300 episodes with public
+            labels on A and 100 with organizer-held labels on B. Each cohort
+            has independent Model and System boards awaiting evaluation.
           </p>
           <figure class="data-profile-figure">
             <a href="assets/data-profiles.png" target="_blank" rel="noopener"

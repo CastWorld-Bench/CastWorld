@@ -372,7 +372,7 @@
     $("board-source").firstChild.textContent = t("Board protocol");
     $("board-note").textContent = t(
       isSystem()
-        ? "System-level evaluation compares forecasting methods by MASE, RMSSE, and average rank. Lower values are better."
+        ? "Systems-level evaluation compares forecasting methods by MASE, RMSSE, and average rank. Lower values are better."
         : "Model-level evaluation compares LLMs in the common CastWorld harness across forecast quality, process execution, behavioral trustworthiness, and resource efficiency.",
     );
     if (updateHash)

@@ -1,6 +1,6 @@
 # A/B Data Access
 
-CastWorld-A contains 300 forecasting episodes and CastWorld-B contains 100, both spanning 25 datasets. Each board supports System-level predictive evaluation and Model-level evaluation in the common harness. The numerical release follows the organization used by [GIFT-Eval](https://github.com/SalesforceAIResearch/gift-eval): one Hugging Face `save_to_disk` directory per dataset, a `Dataset` loader exposing training, validation, and test data, and per-model `all_results.csv` / `config.json` result files.
+CastWorld-A contains 300 forecasting episodes and CastWorld-B contains 100, both spanning 25 datasets. Each board supports systems-level predictive evaluation and model-level evaluation in the common harness. The numerical release follows the organization used by [GIFT-Eval](https://github.com/SalesforceAIResearch/gift-eval): one Hugging Face `save_to_disk` directory per dataset, a `Dataset` loader exposing training, validation, and test data, and per-model `all_results.csv` / `config.json` result files.
 
 ## Files
 

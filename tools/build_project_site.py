@@ -124,7 +124,7 @@ def json_bytes(value):
 def outputs():
     _, datasets = build_data()
     result = {SITE/'data/datasets.json':json_bytes(datasets), SITE/'.nojekyll':b''}
-    for name in ['overview.png','data-profiles.png']:
+    for name in ['overview.pdf','overview.png','data-profiles.png']:
         result[SITE/'assets'/name]=(ROOT/'docs/assets'/name).read_bytes()
     for name in ['castworld-mark.svg','atlas-background.png']:
         result[SITE/'assets'/name]=(ROOT/'docs/assets/brand'/name).read_bytes()

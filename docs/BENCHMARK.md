@@ -10,6 +10,8 @@ The **context-rich dataset suite** supplies scenarios, accessible context, tools
 
 ## Task inventory
 
+The paper reports a 1,310-episode suite and a shared 250-episode comparison of 15 LLMs. The maintained A/B leaderboards use separate evaluation cohorts.
+
 The public release contains 25 datasets across eight application domains, with 300 forecasting episodes on A and 100 on B. Each cohort supports Model and System evaluation. A labels are public; B labels remain organizer-held. An episode is a forecasting window, distinct from a dataset or an interaction round.
 
 <!-- BEGIN DATASET_TABLE -->
@@ -58,7 +60,7 @@ Released source series and public A labels are included. B scoring reads an exte
 
 ## Resources and operations
 
-The paper groups forecasting capabilities into **CastSense** for temporal diagnostics, **CastFeat** for temporal feature extraction, **CastZoo** for forecasting-model access, and **CastKnowledge** for domain knowledge and historical cases. In the released registry, these capabilities use `feature.*`, `model.*`, `knowledge.*`, and `sample.*` interfaces. The four names describe functional families, not renamed API namespaces. The registry contains 49 core tool entries; domain-specific diagnostic extensions are registered separately. Chronos, TimesFM, Sundial, and Moirai are the four native forecasters.
+The paper groups forecasting capabilities into **TimeSense** for temporal diagnostics, **TimeFeat** for temporal feature extraction, **TimeZoo** for forecasting-model access, and **TimeKnowledge** for domain knowledge and historical cases. In the released registry, these capabilities use `feature.*`, `model.*`, `knowledge.*`, and `sample.*` interfaces. The four names describe functional families, not renamed API namespaces. The registry contains 49 core tool entries; domain-specific diagnostic extensions are registered separately. Chronos, TimesFM, Sundial, and Moirai are the four native forecasters.
 
 | Resource or operation | Role |
 | --- | --- |
