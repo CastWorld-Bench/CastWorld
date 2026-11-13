@@ -5,8 +5,8 @@
 <p align="center"><strong>Benchmarking Context-Aware Agentic Time Series Forecasting Beyond Predictive Accuracy</strong></p>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2611.15262"><img src="docs/assets/icons/link-paper.svg" height="40" alt="Paper (arXiv)" /></a>
   <a href="https://castworld-bench.github.io/"><img src="docs/assets/icons/link-project.svg" height="40" alt="Project Page" /></a>
+  <a href="https://arxiv.org/abs/2611.15262"><img src="docs/assets/icons/link-paper.svg" height="40" alt="Paper (arXiv)" /></a>
   <a href="#leaderboards"><img src="docs/assets/icons/link-leaderboards.svg" height="40" alt="Leaderboards" /></a>
   <a href="docs/GETTING_STARTED.md"><img src="docs/assets/icons/link-documentation.svg" height="40" alt="Documentation" /></a>
 </p>
