@@ -1,4 +1,4 @@
-name: CastWorld project site
+name: Validate CastWorld project site
 
 on:
   push:
@@ -10,14 +10,14 @@ on:
       - 'docs/data/dataset_inventory.csv'
       - 'docs/assets/**'
       - 'README.md'
-      - '.github/workflows/pages.yml'
+      - '.github/workflows/site-checks.yml'
   workflow_dispatch:
 
 permissions:
   contents: read
 
 concurrency:
-  group: castworld-pages
+  group: castworld-site-checks
   cancel-in-progress: true
 
 jobs:
@@ -25,7 +25,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      pages: read
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -35,20 +34,3 @@ jobs:
         run: python tools/build_project_site.py --check
       - name: Test public result views
         run: python -m unittest discover -s tests -p test_project_site.py
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v4
-        with:
-          path: site
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v4

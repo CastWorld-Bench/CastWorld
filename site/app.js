@@ -507,7 +507,7 @@
     );
     $("board-status").textContent = t("Unavailable");
     $("board-source").href =
-      "https://github.com/Forever-Pan/CastWorld#leaderboards";
+      "https://github.com/CastWorld-Bench/CastWorld#leaderboards";
     $("board-source").firstChild.textContent = t("Board protocol");
     $("board-note").textContent = t(
       "Open Board protocol to view the evaluation scope.",

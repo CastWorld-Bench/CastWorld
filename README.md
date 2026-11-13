@@ -5,7 +5,7 @@
 <p align="center"><strong>Benchmarking Context-Aware Agentic Time Series Forecasting Beyond Predictive Accuracy</strong></p>
 
 <p align="center">
-  <a href="https://forever-pan.github.io/CastWorld/"><img src="docs/assets/icons/link-project.svg" height="40" alt="Project Page" /></a>
+  <a href="https://castworld-bench.github.io/"><img src="docs/assets/icons/link-project.svg" height="40" alt="Project Page" /></a>
   <a href="#leaderboards"><img src="docs/assets/icons/link-leaderboards.svg" height="40" alt="Leaderboards" /></a>
   <a href="docs/GETTING_STARTED.md"><img src="docs/assets/icons/link-documentation.svg" height="40" alt="Documentation" /></a>
 </p>
@@ -23,7 +23,7 @@ CastWorld evaluates how LLM-driven agents acquire evidence, construct and revise
 - **A state-adaptive harness.** Acquisition, forecast, and execution state support evidence gathering, numerical revision, public checks, and final selection without prescribing one solution workflow.
 - **Decision-centric evaluation.** Assess forecast quality, process execution, behavioral trustworthiness, and resource efficiency, alongside systems-level predictive comparisons.
 
-[Project homepage](https://forever-pan.github.io/CastWorld/) · [Leaderboards](#leaderboards) · [Quick start](#quick-start) · [Dataset guide](docs/DATASETS.md) · [Evaluation guide](docs/EXPERIMENTS.md)
+[Project homepage](https://castworld-bench.github.io/) · [Leaderboards](#leaderboards) · [Quick start](#quick-start) · [Dataset guide](docs/DATASETS.md) · [Evaluation guide](docs/EXPERIMENTS.md)
 
 <a id="leaderboards"></a>
 ## Leaderboards <img src="docs/assets/icons/trophy.svg" width="22" height="22" alt="" />
@@ -35,7 +35,7 @@ The paper reports a 1,310-episode suite and a shared 250-episode comparison of 1
 | **A / Public - 300 episodes** | [15 models; pending](#a-model) | [24 methods; pending](#a-system) | Public |
 | **B / Hidden - 100 episodes** | [15 models; pending](#b-model) | [24 methods; pending](#b-system) | Organizer-held |
 
-**CastWorld-A contains 300 episodes; CastWorld-B contains 100 episodes across the 25-dataset suite.** Select a cohort first, then Model or System on the [project homepage](https://forever-pan.github.io/CastWorld/#leaderboards). All four boards await independent evaluation. A dash denotes a pending result, not a zero score. CSV exports preserve empty pending cells. The homepage supports English and Chinese with a persistent header switch.
+**CastWorld-A contains 300 episodes; CastWorld-B contains 100 episodes across the 25-dataset suite.** Select a cohort first, then Model or System on the [project homepage](https://castworld-bench.github.io/#leaderboards). All four boards await independent evaluation. A dash denotes a pending result, not a zero score. CSV exports preserve empty pending cells. The homepage supports English and Chinese with a persistent header switch.
 
 <a id="a-model"></a>
 ### A / Public (300 episodes) - Model <img src="docs/assets/icons/bot.svg" width="22" height="22" alt="" />

@@ -1,6 +1,6 @@
 # CastWorld Leaderboards
 
-[Project homepage](https://forever-pan.github.io/CastWorld/) | [Repository](../README.md) | [Hugging Face setup](HUGGINGFACE.md)
+[Project homepage](https://castworld-bench.github.io/) | [Repository](../README.md) | [Hugging Face setup](HUGGINGFACE.md)
 
 ## A/B and Model/System
 
@@ -42,4 +42,4 @@ python -m unittest discover -s tests -p test_project_site.py
 
 The builder checks roster consistency, numeric ranges, completion status and agreement between the homepage and README. Pending rows must have empty values. Approved completed rows can be added without changing the builder: set their status to `completed`, supply all metrics, update the corresponding README row, and set the board status to `in_progress` or `completed` as appropriate. The builder does not generate scores, access private B labels, or call an API. Keep original predictions, traces, scoring records, and provenance in the organizer's private result store. The English/Chinese switch changes presentation only; model and dataset identifiers, scores, downloads and task inputs are unchanged.
 
-`site/` is a self-contained static site. Preview it with any static HTTP server, for example `python -m http.server 8000 --directory site`. The GitHub Pages workflow publishes only this directory, not the repository's raw data archives or organizer assets. Configure **Settings > Pages > Source > GitHub Actions** when Pages is available for the repository.
+`site/` is a self-contained static site. Preview it with any static HTTP server, for example `python -m http.server 8000 --directory site`. This repository validates the site sources. The organization homepage is published from [CastWorld-Bench/castworld-bench.github.io](https://github.com/CastWorld-Bench/castworld-bench.github.io). After the checks above pass, copy the contents of `site/` to that website repository's root and push its `main` branch. Its Pages workflow publishes only the website files; raw data archives and organizer assets remain outside the deployment.
