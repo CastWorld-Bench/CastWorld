@@ -94,7 +94,7 @@ class ProjectSiteTests(unittest.TestCase):
 
     def test_readme_heading_icons(self):
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
-        for icon in ("orbit", "trophy", "bot", "chart-no-axes-combined", "workflow", "rocket", "book-open", "fingerprint"):
+        for icon in ("orbit", "trophy", "workflow", "rocket", "book-open", "fingerprint"):
             self.assertIn('src="docs/assets/icons/'+icon+'.svg"', readme)
             self.assertTrue((ROOT / "docs/assets/icons" / (icon+'.svg')).is_file())
 

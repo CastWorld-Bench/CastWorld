@@ -11,7 +11,9 @@
   <a href="docs/GETTING_STARTED.md"><img src="docs/assets/icons/link-documentation.svg" height="40" alt="Documentation" /></a>
 </p>
 
-CastWorld evaluates how LLM-driven agents acquire evidence, construct and revise numerical forecasts, and select final predictions in a shared context-aware environment. It combines a context-rich dataset suite, a lightweight, modular state-adaptive forecasting harness, and decision-centric evaluation. Model-level evaluation is the primary focus: agents use a common harness and are assessed on **forecast quality, process execution, behavioral trustworthiness, and resource efficiency**. Systems-level evaluation compares predictive accuracy across forecasting systems.
+CastWorld evaluates how LLM-driven agents acquire evidence, construct and revise numerical forecasts, and select final predictions in a shared context-aware environment. It combines a context-rich dataset suite, a lightweight, modular state-adaptive forecasting harness, and decision-centric evaluation.
+
+**Model-level evaluation** is the primary focus: agents use a common harness and are assessed on **forecast quality, process execution, behavioral trustworthiness, and resource efficiency**. **Systems-level evaluation** compares predictive accuracy across forecasting systems.
 
 <p align="center">
   <a href="docs/assets/overview.pdf"><img src="docs/assets/overview.png" alt="CastWorld context-rich datasets, state-adaptive forecasting harness, and dual-level evaluation" width="100%" /></a>
@@ -39,7 +41,8 @@ The paper reports a 1,310-episode suite and a shared 250-episode comparison of 1
 **CastWorld-A contains 300 episodes; CastWorld-B contains 100 episodes across the 25-dataset suite.** Select a cohort first, then Model or System on the [project homepage](https://castworld-bench.github.io/#leaderboards). All four boards await independent evaluation. A dash denotes a pending result, not a zero score. CSV exports preserve empty pending cells. The homepage supports English and Chinese with a persistent header switch.
 
 <a id="a-model"></a>
-### A / Public (300 episodes) - Model <img src="docs/assets/icons/bot.svg" width="22" height="22" alt="" />
+<details>
+<summary><strong>A / Public (300 episodes) - Model</strong></summary>
 
 Awaiting evaluation. Model-level evaluation compares 15 LLMs under the same harness across four score dimensions and TotalScore.
 
@@ -63,8 +66,11 @@ Awaiting evaluation. Model-level evaluation compares 15 LLMs under the same harn
 | - | Qwen3.5-9B | - | - | - | - | - |
 <!-- END A_MODEL_TABLE -->
 
+</details>
+
 <a id="a-system"></a>
-### A / Public (300 episodes) - System <img src="docs/assets/icons/chart-no-axes-combined.svg" width="22" height="22" alt="" />
+<details>
+<summary><strong>A / Public (300 episodes) - System</strong></summary>
 
 Awaiting evaluation. Systems-level evaluation compares 24 forecasting methods using MASE, RMSSE and average rank.
 
@@ -97,8 +103,11 @@ Awaiting evaluation. Systems-level evaluation compares 24 forecasting methods us
 | CastWorld | - | - | - |
 <!-- END A_SYSTEM_TABLE -->
 
+</details>
+
 <a id="b-model"></a>
-### B / Hidden (100 episodes) - Model <img src="docs/assets/icons/bot.svg" width="22" height="22" alt="" />
+<details>
+<summary><strong>B / Hidden (100 episodes) - Model</strong></summary>
 
 Awaiting evaluation. Model-level evaluation compares 15 LLMs under the same harness across four score dimensions and TotalScore.
 
@@ -122,8 +131,11 @@ Awaiting evaluation. Model-level evaluation compares 15 LLMs under the same harn
 | - | Qwen3.5-9B | - | - | - | - | - |
 <!-- END B_MODEL_TABLE -->
 
+</details>
+
 <a id="b-system"></a>
-### B / Hidden (100 episodes) - System <img src="docs/assets/icons/chart-no-axes-combined.svg" width="22" height="22" alt="" />
+<details>
+<summary><strong>B / Hidden (100 episodes) - System</strong></summary>
 
 Awaiting evaluation. Systems-level evaluation compares 24 forecasting methods using MASE, RMSSE and average rank.
 
@@ -155,6 +167,8 @@ Awaiting evaluation. Systems-level evaluation compares 24 forecasting methods us
 | CastFSR | - | - | - |
 | CastWorld | - | - | - |
 <!-- END B_SYSTEM_TABLE -->
+
+</details>
 
 See the [board guide](docs/LEADERBOARDS.md) for their scope and the [Hugging Face setup guide](docs/HUGGINGFACE.md) for A/B hosting and submission operations.
 
