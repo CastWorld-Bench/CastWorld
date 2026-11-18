@@ -2,6 +2,8 @@
   <img src="docs/assets/brand/readme-banner.png" width="100%" alt="CastWorld" />
 </h1>
 
+<p align="center"><strong>English</strong> · <a href="README.zh-CN.md"><kbd>简体中文</kbd></a></p>
+
 <p align="center"><strong>Benchmarking Context-Aware Agentic Time Series Forecasting Beyond Predictive Accuracy</strong></p>
 
 <p align="center">
