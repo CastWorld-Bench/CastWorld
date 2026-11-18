@@ -15,7 +15,7 @@
 
 CastWorld evaluates how LLM-driven agents acquire evidence, construct and revise numerical forecasts, and select final predictions in a shared context-aware environment. It combines a context-rich dataset suite, a lightweight, modular state-adaptive forecasting harness, and decision-centric evaluation.
 
-**Model-level evaluation** is the primary focus: agents use a common harness and are assessed on **forecast quality, process execution, behavioral trustworthiness, and resource efficiency**. **Systems-level evaluation** compares predictive accuracy across forecasting systems.
+**Model-level evaluation** is the primary focus: LLMs use the same forecasting harness and are evaluated on **forecast quality, process execution, behavioral trustworthiness, and resource efficiency**. **System-level evaluation** compares the predictive accuracy of forecasting systems on the same tasks.
 
 <p align="center">
   <a href="docs/assets/overview.pdf"><img src="docs/assets/overview.png" alt="CastWorld context-rich datasets, state-adaptive forecasting harness, and dual-level evaluation" width="100%" /></a>
@@ -26,14 +26,14 @@ CastWorld evaluates how LLM-driven agents acquire evidence, construct and revise
 
 - **Context-rich tasks.** Target histories, external variables, events, domain knowledge, and historical cases are organized under a unified context specification.
 - **A state-adaptive harness.** Acquisition, forecast, and execution state support evidence gathering, numerical revision, public checks, and final selection without prescribing one solution workflow.
-- **Decision-centric evaluation.** Assess forecast quality, process execution, behavioral trustworthiness, and resource efficiency, alongside systems-level predictive comparisons.
+- **Decision-centric evaluation.** Assess forecast quality, process execution, behavioral trustworthiness, and resource efficiency, alongside system-level comparisons of predictive accuracy.
 
 [Project homepage](https://castworld-bench.github.io/) · [Leaderboards](#leaderboards) · [Quick start](#quick-start) · [Dataset guide](docs/DATASETS.md) · [Evaluation guide](docs/EXPERIMENTS.md)
 
 <a id="leaderboards"></a>
 ## Leaderboards <img src="docs/assets/icons/trophy.svg" width="22" height="22" alt="" />
 
-The paper reports a 1,310-episode suite and a shared 250-episode comparison of 15 LLMs. The maintained A/B leaderboards use separate evaluation cohorts.
+The paper reports results on a suite of 1,310 forecasting tasks and compares 15 LLMs on a common subset of 250. The A and B leaderboards use separately defined task sets. Both publish the inputs available at forecast time. A also publishes the target values for the forecast horizon; for B, only the organizers hold those values for scoring.
 
 | Cohort | Model | System | Ground truth |
 | --- | --- | --- | --- |
@@ -74,7 +74,7 @@ Awaiting evaluation. Model-level evaluation compares 15 LLMs under the same harn
 <details>
 <summary><strong>A / Public (300 episodes) - System</strong></summary>
 
-Awaiting evaluation. Systems-level evaluation compares 24 forecasting methods using MASE, RMSSE and average rank.
+Awaiting evaluation. System-level evaluation compares 24 forecasting methods using MASE, RMSSE and average rank.
 
 <!-- BEGIN A_SYSTEM_TABLE -->
 | Method | MASE | RMSSE | Avg. rank |
@@ -139,7 +139,7 @@ Awaiting evaluation. Model-level evaluation compares 15 LLMs under the same harn
 <details>
 <summary><strong>B / Hidden (100 episodes) - System</strong></summary>
 
-Awaiting evaluation. Systems-level evaluation compares 24 forecasting methods using MASE, RMSSE and average rank.
+Awaiting evaluation. System-level evaluation compares 24 forecasting methods using MASE, RMSSE and average rank.
 
 <!-- BEGIN B_SYSTEM_TABLE -->
 | Method | MASE | RMSSE | Avg. rank |
@@ -176,7 +176,7 @@ See the [board guide](docs/LEADERBOARDS.md) for their scope and the [Hugging Fac
 
 A/B numerical data use GIFT-Eval-style Hugging Face dataset directories and a GluonTS-compatible loader. See [A/B data access](docs/AB_DATA.md); existing Agent task packs supply context, knowledge, and tools.
 
-The distributed task release and maintained leaderboards cover A and B, each with model-level and systems-level evaluation.
+Within each leaderboard, Model and System use the same tasks: Model compares LLMs in a shared harness, while System compares end-to-end forecasting methods.
 
 <a id="how-castworld-works"></a>
 ## How CastWorld works <img src="docs/assets/icons/workflow.svg" width="22" height="22" alt="" />
@@ -185,9 +185,9 @@ The distributed task release and maintained leaderboards cover A and B, each wit
 
 The **dataset suite** pairs target histories and forecast specifications with external variables, event timelines, domain knowledge, and historical cases under explicit access permissions. The context specification describes modality, temporality, semantics, and availability as complementary attributes.
 
-The **state-adaptive harness** lets evidence acquisition and forecasting inform each other: an intermediate forecast can motivate another query, and new evidence can guide a numerical revision. Shared acquisition, forecast, and execution state records what the agent has obtained, which versions it has created, execution feedback, and the remaining budget. Its 49 core tools support retrieval, analysis, forecast construction, and checking, alongside domain-specific diagnostic extensions. TimeSense, TimeFeat, TimeZoo, and TimeKnowledge organize the forecasting capabilities; the [benchmark specification](docs/BENCHMARK.md#resources-and-operations) connects them to the released interfaces.
+The **state-adaptive harness** lets evidence acquisition and forecasting inform each other: an intermediate forecast can motivate another query, and new evidence can guide a numerical revision. Shared acquisition, forecast, and execution state records what the agent has obtained, which versions it has created, execution feedback, and the remaining budget. Its 49 core tools support retrieval, analysis, forecast construction, and checking, alongside domain-specific diagnostic extensions. The paper groups these capabilities into four families: TimeSense (time-series diagnostics), TimeFeat (feature extraction), TimeZoo (forecasting models), and TimeKnowledge (domain knowledge and historical cases). See the [benchmark specification](docs/BENCHMARK.md#resources-and-operations) for the corresponding tool interfaces.
 
-**Decision-centric evaluation** links the execution trajectory to immutable forecast versions, separating numerical revision from final selection. Held-out targets and frozen scoring profiles are used offline. Model-level evaluation compares LLMs under the same harness; systems-level evaluation compares predictive accuracy across forecasting systems.
+**Decision-centric evaluation** links the execution trajectory to immutable forecast versions, separating numerical revision from final selection. Held-out targets and frozen scoring profiles are used offline. Model-level evaluation compares LLMs under the same harness; system-level evaluation compares predictive accuracy across forecasting systems.
 
 The eight application domains are energy, natural sciences, economics and finance, public services, retail, industrial operations, Web services, and environment. See the [dataset and field guide](docs/DATASETS.md) for all 25 datasets, field meanings, units, and released access permissions.
 
@@ -225,7 +225,9 @@ The demo uses synthetic inputs and a scripted agent. It writes a trace and a leg
 
 ### 3. Evaluate an LLM
 
-Use an OpenAI-compatible **Chat Completions** endpoint supporting native `environment_action` function calls and usage reporting. Copy `examples/portable_deepseek.json` to a local profile if changing the endpoint, model, capacities, or provider options. Keep the key in the environment variable named by the profile.
+Use an OpenAI-compatible **Chat Completions** endpoint that supports native function calling (the harness exposes `environment_action`) and reports token usage. To change the endpoint, model, capacity limits, or provider options, copy `examples/portable_deepseek.json` to a local profile and pass its path to `--provider`. Store the API key in the environment variable named by that profile.
+
+The example uses live inference: configure the [four local forecasting models](docs/REPRODUCTION.md#native-tools), replace `/absolute/path/models.json` with your deployment profile, and describe your setup in `--deployment`.
 
 ```bash
 export CASTWORLD_API_KEY='YOUR_KEY'
@@ -234,7 +236,7 @@ python tools/reproduce.py run --cohort A --provider examples/portable_deepseek.j
 python tools/reproduce.py score --out runs/deepseek_A
 ```
 
-`--allow-api` enables generation against the configured service; provider billing remains external. For a smaller complete run, add `--dataset NYC-311` with a separate output directory. A one-episode `--limit 1` startup probe needs its **own** directory and cannot be scored as a complete cohort. Use `--cohort B` with a separate output directory for B inference. Organizer-side B scoring additionally requires an external `--labels-root`; labels are never supplied to the agent.
+`--allow-api` enables generation against the configured service; provider billing remains external. To evaluate all tasks for just one dataset, add `--dataset NYC-311` and use a separate output directory. A one-episode `--limit 1` startup probe needs its **own** directory and cannot be scored as a complete cohort. Use `--cohort B` with a separate output directory for B inference. Organizer-side B scoring additionally requires an external `--labels-root`; labels are never supplied to the agent.
 
 Repeat the unchanged `run` command to resume; add `--retry-failed` only to recover infrastructure interruptions in the same logical run, preserving its state, budget and receipts. Finished episodes, including failed deliveries, are retained rather than rerun. Unexpected local failures require review. Changes to configuration, credentials, or concurrency require a new output directory. `score` requires finished selected dataset cohorts. The [usage guide](docs/GETTING_STARTED.md) covers each step, outputs, and troubleshooting.
 
